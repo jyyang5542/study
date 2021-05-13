@@ -1,7 +1,7 @@
 # Study
 웹 스터디
 
-###목차
+### 목차
 * HTML
 * PHP
 * CSS
