@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이차원 배열로 테이블 만들기</title>
+</head>
+
+<body>
+  <table cellpadding=3 cellspacing=3 border=2>
+    <thead>
+      <th>No</th>
+      <th>필드1</th>
+      <th>필드2</th>
+      <th>필드3</th>
+      <th>비고</th>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      var tCont, num, field1, field2, field3, etc, i, j;
+      tCont = [
+        [num = "1", field1 = "필드1-1", field2 = "필드1-2", field3 = "필드1-3", etc = "비고1"],
+        [num = "2", field1 = "필드2-1", field2 = "필드2-2", field3 = "필드2-3", etc = "비고2"],
+        [num = "3", field1 = "필드3-1", field2 = "필드3-2", field3 = "필드3-3", etc = "비고3"]
+      ];
+
+      for (i = 0; i < tCont.length; i++) {
+        $('<tr>').appendTo($('tbody'));
+        for (j = 0; j < tCont[i].length; j++) {
+          $('<td>' + tCont[i][j] + '</td>').appendTo('tbody tr:nth-of-type(' + (i + 1) + ')');
+        }
+        $('</tr>').appendTo($('tbody'));
+      }
+    });
+  </script>
+</body>
+
+</html>
