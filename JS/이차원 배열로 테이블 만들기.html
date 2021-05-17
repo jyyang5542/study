@@ -24,7 +24,7 @@
     crossorigin="anonymous"></script>
   <script>
     $(function () {
-      var tCont, num, field1, field2, field3, etc, i, j;
+      var tCont, num, field1, field2, field3, etc, i = 0, j = 0, data = '';
       tCont = [
         [num = "1", field1 = "필드1-1", field2 = "필드1-2", field3 = "필드1-3", etc = "비고1"],
         [num = "2", field1 = "필드2-1", field2 = "필드2-2", field3 = "필드2-3", etc = "비고2"],
@@ -32,12 +32,13 @@
       ];
 
       for (i = 0; i < tCont.length; i++) {
-        $('<tr>').appendTo($('tbody'));
+        data += '<tr>';
         for (j = 0; j < tCont[i].length; j++) {
-          $('<td>' + tCont[i][j] + '</td>').appendTo('tbody tr:nth-of-type(' + (i + 1) + ')');
+          data += '<td>' + tCont[i][j] + '</td>'
         }
-        $('</tr>').appendTo($('tbody'));
+        data += '</tr>';
       }
+      $(data).appendTo('tbody');
     });
   </script>
 </body>
