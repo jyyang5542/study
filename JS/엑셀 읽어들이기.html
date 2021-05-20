@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>엑셀 읽어들이기</title>
+</head>
+
+<body>
+  <table id="data" cellpadding=2 cellspacing=2 border=2></table>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $.ajax({
+      url: 'excel.xml',
+      type: 'GET',
+      dataType: 'xml',
+      timeout: 1000,
+      error: function () { alert('Error loading XML document'); },
+      success: function (xml) {
+        $(xml).find('text').each(function () {
+          var item1 = $(this).find("item1").text();
+          var item2 = $(this).find("item2").text();
+          var item3 = $(this).find("item3").text();
+          var item4 = $(this).find("item4").text();
+          var view_text = "<tr><td>" + item1 + "</td><td>" + item2 + "</td><td>" + item3 + "</td><td>" + item4 + "</td></tr>";
+          $("#data").append(view_text);
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>

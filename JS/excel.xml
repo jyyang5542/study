@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<text>
+		<item1>내용1</item1>
+		<item2>내용2</item2>
+		<item3>내용3</item3>
+		<item4>내용4</item4>
+	</text>
+	<text>
+		<item1>내용5</item1>
+		<item2>내용6</item2>
+		<item3>내용7</item3>
+		<item4>내용8</item4>
+	</text>
+	<text>
+		<item1>내용9</item1>
+		<item2>내용10</item2>
+		<item3>내용11</item3>
+		<item4>내용12</item4>
+	</text>
+</Root>
