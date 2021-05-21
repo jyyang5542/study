@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[P2] SKT_RCS 퍼블리싱 목록</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/common_layout.css">
+</head>
+
+<body>
+  <section class="conteiner">
+    <section class="content_guide">
+      <div class="content_head">
+        <div class="text_title">
+          <p class="description sub_title">파일경로</p>
+          <p class="title h2"> [P2] SKT_RCS 퍼블리싱 목록</p>
+        </div>
+      </div>
+      <div class="content_body">
+        <div class="guide-tbl">
+          <table id="data">
+            <caption>작업리스트</caption>
+            <colgroup>
+              <col style="width:40px" />
+              <col style="width:70px" />
+              <col style="width:230px" />
+              <col style="width:130px" />
+              <col style="width:130px" />
+              <col style="width:150px" />
+              <col style="width:130px" />
+              <col style="width:100px;" />
+              <col style="width:100px;" />
+              <col style="width:280px;" />
+              <col style="width:auto" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col">번호</th>
+                <th scope="col">단계</th>
+                <th scope="col">화면ID</th>
+                <th scope="col">구분</th>
+                <th scope="col">1Depth</th>
+                <th scope="col">2Depth</th>
+                <th scope="col">3Depth</th>
+                <th scope="col">4Depth</th>
+                <th scope="col">상태</th>
+                <th scope="col">파일명/Link</th>
+                <th scope="col">비고</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $.ajax({
+      url: 'publishing_guide.xml',
+      type: 'GET',
+      dataType: 'xml',
+      timeout: 1000,
+      error: function () {
+        alert('Error loading XML document');
+      },
+      success: function (xml) {
+        $(xmgl).find('SKT_RCS').each(function (index, item) {
+          var category = $(this).find("category").text();
+          var depth1 = $(this).find("depth1").text();
+          var depth2 = $(this).find("depth2").text();
+          var depth3 = $(this).find("depth3").text();
+          var depth4 = $(this).find("depth4").text();
+          var depth5 = $(this).find("depth5").text();
+          var status = $(this).find("status").text();
+          var path = $(this).find("path").text();
+          var pageid = $(this).find("pageid").text();
+          var links = $(this).find("links").text();
+          var wrts = $(this).find("wrts").text();
+          var process = $(this).find("process").text();
+          var endDate = $(this).find("endDate").text();
+          var w3c = $(this).find("w3c").text();
+          var access = $(this).find("access").text();
+          var etcs = $(this).find("etcs").text();
+          var ends = $(this).find("ends").text();
+
+          var output = "";
+          if (ends == "ok") {
+            if (process == "완료") {
+              output += "<tr class='division bg-finish'>";
+            } else if (process == "작업완료" || process == "작업중" || process == "수정중" || process == "holding") {
+              output += "<tr class='division bg-ing'>";
+            } else if (process == "최종완료" || etcs == "Migration" || links != "" || etcs == "Link") {
+              output += "<tr class='bg-end'>";
+            } else if (process == "제외") {
+              output += "<tr class='division bg-except'>";
+            } else {
+              output += "<tr class='division'>";
+            }
+          } else {
+            if (process == "완료") {
+              output += "<tr class='bg-finish'>";
+            } else if (process == "작업완료" || process == "작업중" || process == "수정중" || process == "holding") {
+              output += "<tr class='bg-ing'>";
+            } else if (process == "최종완료" || etcs == "Migration" || links != "" || etcs == "Link") {
+              output += "<tr class='bg-end'>";
+            } else if (process == "제외") {
+              output += "<tr class='bg-except'>";
+            } else {
+              output += "<tr>";
+            }
+          }
+          output += "<td style='text-align:center'>" + (index + 1) + "</td>";
+          output += "<td>" + category + "</td>";
+          output += "<td>" + depth1 + "</td>";
+          output += "<td>" + depth2 + "</td>";
+          output += "<td>" + depth3 + "</td>";
+          output += "<td>" + depth4 + "</td>";
+          output += "<td>" + depth5 + "</td>";
+          output += "<td>" + pageid + "</td>";
+          output += "<td>" + status + "</td>";
+          output += "<td class='algL'><a href='" + path + "" + links + "' target='_blank'>" + links + "</a></td>";
+          if (etcs == null) {
+            output += "<td></td>";
+          } else {
+            output += "<td class='alignL'>" + etcs + "</td>";
+          }
+          output += "</tr>"
+          $("#data tbody").append(output);
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>Common</depth1>
+    <depth2>엘리먼트</depth2>
+    <depth3></depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./</path>
+    <pageid></pageid>
+    <links>SKT_RCS_comm_item.html</links>
+    <wrts></wrts>
+    <process>제외</process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>프로젝트에 사용되는 모든 공통 요소</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_comm_01_01</depth1>
+    <depth2>브랜드 선택</depth2>
+    <depth3></depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./</path>
+    <pageid></pageid>
+    <links>SKT_RCS_comm_01_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>Loading</depth1>
+    <depth2>공통</depth2>
+    <depth3>전체화면 Loading</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_02_01_Loading_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>Loading</depth1>
+    <depth2>공통</depth2>
+    <depth3>Loading</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_02_01_Loading.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>Progress-bar</depth1>
+    <depth2>공통</depth2>
+    <depth3>Progress-bar</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_02_01_Loading_02.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_comm_05_01</depth1>
+    <depth2>오류</depth2>
+    <depth3>시스템 점검</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./</path>
+    <pageid></pageid>
+    <links>SKT_RCS_comm_05_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_comm_05_02</depth1>
+    <depth2>오류</depth2>
+    <depth3>오류 400</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./</path>
+    <pageid></pageid>
+    <links>SKT_RCS_comm_05_02.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_comm_05_03</depth1>
+    <depth2>오류</depth2>
+    <depth3>오류 500</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+		<status>완료</status>
+		<path>./</path>
+		<pageid></pageid>
+		<links>SKT_RCS_comm_05_03.html</links>
+		<wrts></wrts>
+		<process></process>
+		<endDate></endDate>
+		<w3c></w3c>
+		<access></access>
+		<etcs></etcs>
+		<ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Dash_01_01</depth1>
+    <depth2>대시보드</depth2>
+    <depth3>대시보드</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./dashbord/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Dash_01_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Dash_01_01_nocontent</depth1>
+    <depth2>대시보드</depth2>
+    <depth3>대시보드 내용없음</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./dashbord/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Dash_01_01_nocontent.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Dash_01_01_nochart</depth1>
+    <depth2>대시보드</depth2>
+    <depth3>대시보드 통계없음</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./dashbord/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Dash_01_01_nochart.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_01_01</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>메시지선택</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_01_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_01_02</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3></depth3>
+    <depth4>미리보기</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_01_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>SKT_RCS_Msg_01_01.html 화면 미리보기<![CDATA[<br>]]> 이미지 클릭 시 노출되는 레이어팝업으로<![CDATA[<br>]]> 확인 가능</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_02_01</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>메시지 작성</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_02_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_02_03</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>메시지 작성</depth4>
+    <depth5>standalone</depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_02_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>21.04.15추가 standalone</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_02_04</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>메시지 작성</depth4>
+    <depth5>버튼 좌/우 배치</depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_02_04.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>21.04.15추가 버튼 좌우 미리보기 참고용</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_02_02</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4></depth4>
+    <depth5>이용안내</depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links> </links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>SKT_RCS_Msg_02_01 내용필드 옆 이용안내<![CDATA[<br>]]> 툴팁으로 확인 가능</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_02_01_Error</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4></depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_02_01_Error.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_03_01</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>대체 메시지 작성</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_03_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1><![CDATA[<span class="tog">SKT_RCS_Msg_03_02</span>]]></depth1>
+    <depth2><![CDATA[<span class="tog">메시지 발송</span>]]></depth2>
+    <depth3><![CDATA[<span class="tog">메시지 발송</span>]]></depth3>
+    <depth4><![CDATA[<span class="tog">엑셀등록 시 주의사항</span>]]></depth4>
+    <depth5></depth5>
+    <status>보류</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links> </links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>발송데이터 화면 이동 전 안내 툴팁 혹은 레이어팝업으로 필요 시 추가할 내용이었음 - P1 제외</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_04_01</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>발송 설정</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_04_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_04_01_onlyrcs</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>발송 설정</depth4>
+    <depth5>대체 메시지 미사용</depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_04_01_onlyrcs.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_04_02</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4></depth4>
+    <depth5>작성가이드</depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links> </links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>P2 이관 화면</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_04_03</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4></depth4>
+    <depth5>테스트 발송</depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_04_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_05_01</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>발송 요청 완료</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_05_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_05_01_Max</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4>발송 요청 완료</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_05_01_Max.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_Msg_05_02</depth1>
+    <depth2>메시지 발송</depth2>
+    <depth3>메시지 발송</depth3>
+    <depth4></depth4>
+    <depth5>검색 키워드 관리</depth5>
+    <status>완료</status>
+    <path>./message/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_Msg_05_02_Default.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase1</category>
+    <depth1>SKT_RCS_brand_01_01</depth1>
+    <depth2>브랜드</depth2>
+    <depth3>브랜드</depth3>
+    <depth4>대화방 메뉴</depth4>
+    <depth5></depth5>
+    <status>완료</status>
+    <path>./brand/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_brand_01_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1><![CDATA[<span class="tog">SKT_RCS_brand_02_01</span>]]></depth1>
+    <depth2><![CDATA[<span class="tog">브랜드</span>]]></depth2>
+    <depth3><![CDATA[<span class="tog">브랜드</span>]]></depth3>
+    <depth4><![CDATA[<span class="tog">브랜드 소식(관리자)</span>]]></depth4>
+    <depth5></depth5>
+    <status>보류</status>
+    <path>./brand/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_brand_02_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>5월 스펙아웃</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_brand_04_01</depth1>
+    <depth2>브랜드</depth2>
+    <depth3>브랜드</depth3>
+    <depth4>브랜드 소식(디바이스)</depth4>
+    <depth5>전체_type</depth5>
+    <status>진행중</status>
+    <path>./brand/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_brand_04_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs>갤러리타입 1종 진행</etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_brand_04_02_01</depth1>
+    <depth2>브랜드</depth2>
+    <depth3>브랜드</depth3>
+    <depth4></depth4>
+    <depth5>GALLERY(버튼 1개)</depth5>
+    <status>진행중</status>
+    <path>./brand/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_brand_04_02_btnone.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_brand_04_02_02</depth1>
+    <depth2>브랜드</depth2>
+    <depth3>브랜드</depth3>
+    <depth4></depth4>
+    <depth5>GALLERY(버튼 2개)</depth5>
+    <status>진행중</status>
+    <path>./brand/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_brand_04_02_btntwo.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1><![CDATA[<span class="tog">SKT_RCS_brand_05_01</span>]]></depth1>
+    <depth2><![CDATA[<span class="tog">브랜드</span>]]></depth2>
+    <depth3><![CDATA[<span class="tog">브랜드</span>]]></depth3>
+    <depth4></depth4>
+    <depth5><![CDATA[<span class="tog">SHARING</span>]]></depth5>
+    <status>보류</status>
+    <path>./brand/</path>
+    <pageid></pageid>
+    <links></links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1><![CDATA[<span class="tog">SKT_RCS_brand_06_01</span>]]></depth1>
+    <depth2><![CDATA[<span class="tog">브랜드</span>]]></depth2>
+    <depth3><![CDATA[<span class="tog">브랜드</span>]]></depth3>
+    <depth4></depth4>
+    <depth5><![CDATA[<span class="tog">SLIDEVIEW</span>]]></depth5>
+    <status>보류</status>
+    <path>./brand/</path>
+    <pageid></pageid>
+    <links></links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_01_01</depth1>
+    <depth2>회원</depth2>
+    <depth3>로그인</depth3>
+    <depth4>로그인</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_01_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_01_02</depth1>
+    <depth2>회원</depth2>
+    <depth3>로그인</depth3>
+    <depth4>비밀번호 변경 알림</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_01_02.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_01_03</depth1>
+    <depth2>회원</depth2>
+    <depth3>로그인</depth3>
+    <depth4>비밀번호 변경</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_01_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_01_04</depth1>
+    <depth2>회원</depth2>
+    <depth3>로그인</depth3>
+    <depth4>자동 로그아웃</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_01_04.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_01_05</depth1>
+    <depth2>회원</depth2>
+    <depth3>로그인</depth3>
+    <depth4>BizRCS 기업 고객<![CDATA[<br>]]> 정보안내</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_01_05.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_02_01</depth1>
+    <depth2>회원</depth2>
+    <depth3>회원가입</depth3>
+    <depth4>약관동의</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_02_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_02_02</depth1>
+    <depth2>회원</depth2>
+    <depth3>회원가입</depth3>
+    <depth4>회원 정보 입력</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_02_02.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_02_03</depth1>
+    <depth2>회원</depth2>
+    <depth3>회원가입</depth3>
+    <depth4>권한신청</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_02_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_02_04_대표 권한</depth1>
+    <depth2>회원</depth2>
+    <depth3>회원가입</depth3>
+    <depth4>권한승인 요청 완료</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_02_04_representation.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_02_04_운영 권한</depth1>
+    <depth2>회원</depth2>
+    <depth3>회원가입</depth3>
+    <depth4>권한승인 요청 완료</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_02_04_operation.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_03_01</depth1>
+    <depth2>회원</depth2>
+    <depth3>아이디</depth3>
+    <depth4>아이디 찾기</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_03_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_03_02</depth1>
+    <depth2>회원</depth2>
+    <depth3>아이디</depth3>
+    <depth4>아이디 찾기 완료</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_03_02.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_03_03</depth1>
+    <depth2>회원</depth2>
+    <depth3>아이디</depth3>
+    <depth4>아이디 찾기 실패</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_03_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_04_01</depth1>
+    <depth2>회원</depth2>
+    <depth3>비밀번호</depth3>
+    <depth4>비밀번호 찾기</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_04_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_04_02</depth1>
+    <depth2>회원</depth2>
+    <depth3>비밀번호</depth3>
+    <depth4>비밀번호 변경</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_04_02.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_04_03</depth1>
+    <depth2>회원</depth2>
+    <depth3>비밀번호</depth3>
+    <depth4>비밀번호 변경 완료</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_04_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_login_05_01</depth1>
+    <depth2>회원</depth2>
+    <depth3>휴면 계정</depth3>
+    <depth4>휴면 계정 안내</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./member/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_login_05_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_stats_01_01</depth1>
+    <depth2>통계</depth2>
+    <depth3>메인 캠페인 통계</depth3>
+    <depth4>메시지 캠페인 통계 목록</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./stats/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_stats_01_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_stats_01_03</depth1>
+    <depth2>통계</depth2>
+    <depth3>메인 캠페인 통계</depth3>
+    <depth4>상세정보</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./stats/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_stats_01_03.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_stats_02_01</depth1>
+    <depth2>통계</depth2>
+    <depth3>대화방 메뉴 통계</depth3>
+    <depth4>대화방 메뉴 통계 목록</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./stats/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_stats_02_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+  <SKT_RCS>
+    <category>Phase2</category>
+    <depth1>SKT_RCS_stats_03_01</depth1>
+    <depth2>통계</depth2>
+    <depth3>브랜드 소식 통계</depth3>
+    <depth4>브랜드 소식 통계 목록</depth4>
+    <depth5></depth5>
+    <status>진행중</status>
+    <path>./stats/</path>
+    <pageid></pageid>
+    <links>SKT_RCS_stats_03_01.html</links>
+    <wrts></wrts>
+    <process></process>
+    <endDate></endDate>
+    <w3c></w3c>
+    <access></access>
+    <etcs></etcs>
+    <ends></ends>
+  </SKT_RCS>
+</ROOT>
