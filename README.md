@@ -17,5 +17,5 @@
 > 2021.05.17 : JS/이차원 배열로 테이블 만들기.html 추가\
 > 2021.05.20 : JS/엑셀 읽어들이기.html 추가\
 > 2021.05.21 :\
-	> JS/Publishing_Guide/xml_ajax_파싱.html 추가\
-	> JS/Publishing_Guide/구글_스프레드_시트_json_파싱.html 추가
+	* JS/Publishing_Guide/xml_ajax_파싱.html 추가\
+	* JS/Publishing_Guide/구글_스프레드_시트_json_파싱.html 추가
