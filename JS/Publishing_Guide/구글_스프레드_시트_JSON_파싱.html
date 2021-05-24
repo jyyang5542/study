@@ -1,149 +1,147 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[P2] SKT_RCS 퍼블리싱 목록</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/common.css" />
-    <link rel="stylesheet" href="./assets/css/layout.css" />
-    <link rel="stylesheet" href="./assets/css/common_layout.css" />
-  </head>
 
-  <body>
-    <section class="conteiner">
-      <section class="content_guide">
-        <div class="content_head">
-          <div class="text_title">
-            <p class="description sub_title">파일경로</p>
-            <p class="title h2">[P2] SKT_RCS 퍼블리싱 목록</p>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[P2] SKT_RCS 퍼블리싱 목록</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/common.css" />
+  <link rel="stylesheet" href="./assets/css/layout.css" />
+  <link rel="stylesheet" href="./assets/css/common_layout.css" />
+</head>
+
+<body>
+  <section class="conteiner">
+    <section class="content_guide">
+      <div class="content_head">
+        <div class="text_title">
+          <p class="description sub_title">파일경로</p>
+          <p class="title h2">[P2] SKT_RCS 퍼블리싱 목록</p>
         </div>
-        <div class="content_body">
-          <div class="guide-tbl">
-            <table id="data">
-              <caption>
-                작업리스트
-              </caption>
-              <colgroup>
-                <col style="width: 40px" />
-                <col style="width: 70px" />
-                <col style="width: 230px" />
-                <col style="width: 130px" />
-                <col style="width: 130px" />
-                <col style="width: 150px" />
-                <col style="width: 130px" />
-                <col style="width: 100px" />
-                <col style="width: 100px" />
-                <col style="width: 280px" />
-                <col style="width: auto" />
-              </colgroup>
-              <thead>
-                <tr>
-                  <th>번호</th>
-                  <th>단계</th>
-                  <th>화면ID</th>
-                  <th>구분</th>
-                  <th>1Depth</th>
-                  <th>2Depth</th>
-                  <th>3Depth</th>
-                  <th>4Depth</th>
-                  <th>상태</th>
-                  <th>파일명/Link</th>
-                  <th>비고</th>
-                </tr>
-              </thead>
-              <tbody>
-              </tbody>
-            </table>
-          </div>
+      </div>
+      <div class="content_body">
+        <div class="guide-tbl">
+          <table id="data">
+            <caption>
+              작업리스트
+            </caption>
+            <colgroup>
+              <col style="width: 40px" />
+              <col style="width: 70px" />
+              <col style="width: 230px" />
+              <col style="width: 130px" />
+              <col style="width: 130px" />
+              <col style="width: 150px" />
+              <col style="width: 130px" />
+              <col style="width: 100px" />
+              <col style="width: 100px" />
+              <col style="width: 280px" />
+              <col style="width: auto" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>번호</th>
+                <th>단계</th>
+                <th>화면ID</th>
+                <th>구분</th>
+                <th>1Depth</th>
+                <th>2Depth</th>
+                <th>3Depth</th>
+                <th>4Depth</th>
+                <th>상태</th>
+                <th>파일명/Link</th>
+                <th>비고</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
         </div>
-      </section>
+      </div>
     </section>
+  </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      var jsonAPI = "http://gsx2json.com/api?id=1xKd904yVxv0RYyQRcfHg3RnSUF9LdULcmfdONqoC68Q&sheet=1";
-      var json = $.getJSON(jsonAPI, function(data) {
-        $.each(data, function(i, SKT_RCS) {
-          var myData = JSON.stringify(SKT_RCS);
-          myData = JSON.parse(myData);
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    var jsonAPI = "http://gsx2json.com/api?id=1xKd904yVxv0RYyQRcfHg3RnSUF9LdULcmfdONqoC68Q&sheet=1";
+    var json = $.getJSON(jsonAPI, function (data) {
+      $.each(data, function (i, SKT_RCS) {
+        var myData = JSON.stringify(SKT_RCS);
+        myData = JSON.parse(myData);
 
-          var tableData = "";
-          for (var i=0; i<myData.length; i++) {
+        var tableData = "";
+        for (var i = 0; i < myData.length; i++) {
 
-            // 변수 선언
-            if(myData[i]["category"]==0) {var category=""} else {var category=myData[i]["category"]}
-            if(myData[i]["depth1"]==0) {var depth1=""} else {var depth1=myData[i]["depth1"]}
-            if(myData[i]["depth2"]==0) {var depth2=""} else {var depth2=myData[i]["depth2"]}
-            if(myData[i]["depth3"]==0) {var depth3=""} else {var depth3=myData[i]["depth3"]}
-            if(myData[i]["depth4"]==0) {var depth4=""} else {var depth4=myData[i]["depth4"]}
-            if(myData[i]["depth5"]==0) {var depth5=""} else {var depth5=myData[i]["depth5"]}
-            if(myData[i]["status"]==0) {var status=""} else {var status=myData[i]["status"]}
-            if(myData[i]["path"]==0) {var path=""} else {var path=myData[i]["path"]}
-            if(myData[i]["pageid"]==0) {var pageid=""} else {var pageid=myData[i]["pageid"]}
-            if(myData[i]["links"]==0) {var links=""} else {var links=myData[i]["links"]}
-            if(myData[i]["wits"]==0) {var wits=""} else {var wits=myData[i]["wits"]}
-            if(myData[i]["process"]==0) {var process=""} else {var process=myData[i]["process"]}
-            if(myData[i]["enddate"]==0) {var endDate=""} else {var endDate=myData[i]["enddate"]}
-            if(myData[i]["w3c"]==0) {var w3c=""} else {var w3c=myData[i]["w3c"]}
-            if(myData[i]["access"]==0) {var access=""} else {var access=myData[i]["access"]}
-            if(myData[i]["etcs"]==0) {var etcs=""} else {var etcs=myData[i]["etcs"]}
-            if(myData[i]["ends"]==0) {var ends=""} else {var ends=myData[i]["ends"]}
+          // 변수 선언
+          if (myData[i]["category"] == 0) { var category = "" } else { var category = myData[i]["category"] }
+          if (myData[i]["depth1"] == 0) { var depth1 = "" } else { var depth1 = myData[i]["depth1"] }
+          if (myData[i]["depth2"] == 0) { var depth2 = "" } else { var depth2 = myData[i]["depth2"] }
+          if (myData[i]["depth3"] == 0) { var depth3 = "" } else { var depth3 = myData[i]["depth3"] }
+          if (myData[i]["depth4"] == 0) { var depth4 = "" } else { var depth4 = myData[i]["depth4"] }
+          if (myData[i]["depth5"] == 0) { var depth5 = "" } else { var depth5 = myData[i]["depth5"] }
+          if (myData[i]["status"] == 0) { var status = "" } else { var status = myData[i]["status"] }
+          if (myData[i]["path"] == 0) { var path = "" } else { var path = myData[i]["path"] }
+          if (myData[i]["pageid"] == 0) { var pageid = "" } else { var pageid = myData[i]["pageid"] }
+          if (myData[i]["links"] == 0) { var links = "" } else { var links = myData[i]["links"] }
+          if (myData[i]["wits"] == 0) { var wits = "" } else { var wits = myData[i]["wits"] }
+          if (myData[i]["process"] == 0) { var process = "" } else { var process = myData[i]["process"] }
+          if (myData[i]["enddate"] == 0) { var endDate = "" } else { var endDate = myData[i]["enddate"] }
+          if (myData[i]["w3c"] == 0) { var w3c = "" } else { var w3c = myData[i]["w3c"] }
+          if (myData[i]["access"] == 0) { var access = "" } else { var access = myData[i]["access"] }
+          if (myData[i]["etcs"] == 0) { var etcs = "" } else { var etcs = myData[i]["etcs"] }
+          if (myData[i]["ends"] == 0) { var ends = "" } else { var ends = myData[i]["ends"] }
 
-            if (ends == "ok") {
-              if (process == "완료") {
-                tableData += "<tr class='division bg-finish'>";
-              } else if (process == "작업완료" || process == "작업중" || process == "수정중" || process == "holding") {
-                tableData += "<tr class='division bg-ing'>";
-              } else if (process == "최종완료" || etcs == "Migration" || links != "" || etcs == "Link") {
-                tableData += "<tr class='bg-end'>";
-              } else if (process == "제외") {
-                tableData += "<tr class='division bg-except'>";
-              } else {
-                tableData += "<tr class='division'>";
-              }
+          if (ends == "ok") {
+            if (process == "완료") {
+              tableData += "<tr class='division bg-finish'>";
+            } else if (process == "작업완료" || process == "작업중" || process == "수정중" || process == "holding") {
+              tableData += "<tr class='division bg-ing'>";
+            } else if (process == "최종완료" || etcs == "Migration" || links != "" || etcs == "Link") {
+              tableData += "<tr class='bg-end'>";
+            } else if (process == "제외") {
+              tableData += "<tr class='division bg-except'>";
             } else {
-              if (process == "완료") {
-                tableData += "<tr class='bg-finish'>";
-              } else if (process == "작업완료" || process == "작업중" || process == "수정중" || process == "holding") {
-                tableData += "<tr class='bg-ing'>";
-              } else if (process == "최종완료" || etcs == "Migration" || links != "" || etcs == "Link") {
-                tableData += "<tr class='bg-end'>";
-              } else if (process == "제외") {
-                tableData += "<tr class='bg-except'>";
-              } else {
-                tableData += "<tr>";
-              }
+              tableData += "<tr class='division'>";
             }
-
-            // 문장 생성
-            tableData += '<td style="text-a">'+(i+1)+'</td>';
-            tableData += '<td>'+category+'</td>';
-            tableData += '<td>'+depth1+'</td>';
-            tableData += '<td>'+depth2+'</td>';
-            tableData += '<td>'+depth3+'</td>';
-            tableData += '<td>'+depth4+'</td>';
-            tableData += '<td>'+depth5+'</td>';
-            tableData += '<td>'+pageid+'</td>';
-            tableData += '<td>'+status+'</td>';
-            tableData += '<td class="algL"><a href="' + path + links + '" target="_blank">' + links + '</a></td>';
-            if (etcs == "") {tableData += "<td></td>";}
-            else {tableData += "<td class='alignL'>" + etcs + "</td>";}
-            tableData += '</tr>';
+          } else {
+            if (process == "완료") {
+              tableData += "<tr class='bg-finish'>";
+            } else if (process == "작업완료" || process == "작업중" || process == "수정중" || process == "holding") {
+              tableData += "<tr class='bg-ing'>";
+            } else if (process == "최종완료" || etcs == "Migration" || links != "" || etcs == "Link") {
+              tableData += "<tr class='bg-end'>";
+            } else if (process == "제외") {
+              tableData += "<tr class='bg-except'>";
+            } else {
+              tableData += "<tr>";
+            }
           }
-          $('#data tbody').append(tableData);
-        })
-      });
-    </script>
-  </body>
+
+          // 문장 생성
+          tableData += '<td style="text-a">' + (i + 1) + '</td>';
+          tableData += '<td>' + category + '</td>';
+          tableData += '<td>' + depth1 + '</td>';
+          tableData += '<td>' + depth2 + '</td>';
+          tableData += '<td>' + depth3 + '</td>';
+          tableData += '<td>' + depth4 + '</td>';
+          tableData += '<td>' + depth5 + '</td>';
+          tableData += '<td>' + pageid + '</td>';
+          tableData += '<td>' + status + '</td>';
+          tableData += '<td class="algL"><a href="' + path + links + '" target="_blank">' + links + '</a></td>';
+          if (etcs == "") { tableData += "<td></td>"; }
+          else { tableData += "<td class='alignL'>" + etcs + "</td>"; }
+          tableData += '</tr>';
+        }
+        $('#data tbody').append(tableData);
+      })
+    });
+  </script>
+</body>
+
 </html>
