@@ -1,0 +1,19 @@
+{
+    "result": [
+        { "title": "제목 하나", "desc": "desc_1", "isShow": true },
+        { "title": "둘둘둘", "desc": "desc_2", "isShow": true },
+        { "title": "333", "desc": "desc_3", "isShow": false },
+        { "title": "444", "desc": "desc_4", "isShow": true },
+        { "title": "다섯 제목", "desc": "desc_5", "isShow": true },
+        { "title": "title_6", "desc": "desc_6", "isShow": true }
+    ],
+    "data": [
+        { "date": "2023-08-24", "title": "주의할 것은 자동으로 줄바꿈이 적용되지 않습니다.", "author": "양정연" },
+        { "date": "2023-08-24", "title": "문법은 다음과 같습니다. \",\" 을 구분자로 여러 값을 한번에 출력할 수 있습니다.", "author": "양정연" },
+        { "date": "2023-08-24", "title": "디버그나 화면에 텍스트를 출력할때 많이 쓰고 있는 write() 함수에 대해 알아 보겠습니다.", "author": "양정연" },
+        { "date": "2023-08-24", "title": "여러 값을 한번에 출력하면 붙어서 나옵니다.", "author": "양정연" },
+        { "date": "2023-08-24", "title": "여러 개의 인수를 한번에 넣으면 줄 바꿈이 되지 않기 때문에 태그와 함께 써 줍니다.", "author": "양정연" },
+        { "date": "2023-08-24", "title": "다음 샘플 소스는 새롭게 띄운 창에 값을 출력하는 방법입니다.", "author": "양정연" },
+        { "date": "2023-08-24", "title": "새롭게 띄운 팝업창 화면에 값을 출력할 수 있습니다.", "author": "양정연" }
+    ]
+}
