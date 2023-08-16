@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=2" />
+  <title>삼성코닝어드밴스드글라스 사이트 퍼블리싱</title>
+
+  <link rel="stylesheet" href="../common/css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+ <!--// 스크립트 시작 -->
+ <script type="text/javascript" src="../common/js/jquery-1.11.1.min.js"></script>
+ <script type="text/javascript">
+	$(document).ready(function(){
+
+		/**************************************
+			SET INTERVAL ROLLING
+		**************************************/
+		var n = 1;
+		$('.btn li:nth-child(1) a').addClass("active");
+		rolling = setInterval(function() {
+			n++;
+			if ( n == 1 ) {
+				$('.btn li a').removeClass("active");
+				$('.btn li:nth-child(1) a').addClass("active");
+			} else if ( n == 2 ) {
+				$('.btn li a').removeClass("active");
+				$('.btn li:nth-child(2) a').addClass("active");
+			} else if ( n == 3 ) {
+				$('.btn li a').removeClass("active");
+				$('.btn li:nth-child(3) a').addClass("active");
+			} else if ( n == 4 ) {
+				$('.btn li a').removeClass("active");
+				$('.btn li:nth-child(1) a').addClass("active");
+			}else if ( n == 5 ) {
+				$('.btn li a').removeClass("active");
+				$('.btn li:nth-child(2) a').addClass("active");
+				n = 2;
+				$('.visual_img').css({ left:-1920 });
+			}
+			$('.visual_img').stop().animate({ left:-1920 * n }, 600);
+		}, 5000);
+
+		/**************************************
+			Left Button
+		**************************************/
+		$('.left_ar').click(function() {
+			n--;
+			if ( n == -1 ) {
+				n = 2;
+				$('.visual_img').css({ left:-1920*3 });
+			}
+			$('.visual_img').stop().animate({ left:-1920 * n }, 600);
+		});
+
+		/**************************************
+			Right Button
+		**************************************/
+		$('.right_ar').click(function() {
+			n++;
+			if ( n == 5 ) {
+				n = 2;
+				$('.visual_img').css({ left:-1920 });
+			}
+			$('.visual_img').stop().animate({ left:-1920 * n }, 600);
+		});
+
+		/**************************************
+			Number Button
+		**************************************/
+		$('.btn li:nth-child(1) a').click(function() {
+			n = 1;
+			$('.btn li a').removeClass("active");
+			$(this).addClass("active");
+			$('.visual_img').stop().animate({ left:-1920 * n }, 600);
+		});
+		$('.btn li:nth-child(2) a').click(function() {
+			n = 2;
+			$('.btn li a').removeClass("active");
+			$(this).addClass("active");
+			$('.visual_img').stop().animate({ left:-1920 * n }, 600);
+		});
+		$('.btn li:nth-child(3) a').click(function() {
+			n = 3;
+			$('.btn li a').removeClass("active");
+			$(this).addClass("active");
+			$('.visual_img').stop().animate({ left:-1920 * n }, 600);
+		});
+		$('.btn li:nth-child(4) a').click(function() {
+			$('.btn li a').removeClass("active"); 
+			clearInterval(rolling);
+		});
+
+	});
+ </script>
+ <!--// 스크립트 끝 -->
+ </head>
+ <body>
+	<!--
+	=====================================
+		헤더 영역
+		HEADER AREA
+	=====================================
+	-->
+	<div id="header">
+		<div class="wrap">
+			<h1><a href="#"><img src="img/logo.gif" width="225" height="23" alt="logo" /></a></h1>
+			<ul>
+				<li><a href="#"><img src="img/gnb_company.gif" width="55" height="15" alt="회사소개" /></a></li>
+				<li><a href="#"><img src="img/gnb_product.gif" width="55" height="15" alt="제품소개" /></a></li>
+				<li><a href="#"><img src="img/gnb_recruit.gif" width="55" height="15" alt="인재채용" /></a></li>
+				<li><a href="#"><img src="img/gnb_contactus.gif" width="79" height="15" alt="Contact us" /></a></li>
+			</ul>
+		</div> <!--// wrap -->
+	</div> <!--// header -->
+
+
+	<!--
+	=====================================
+		콘텐츠 영역
+		CONTENTS AREA
+	=====================================
+	-->
+	<div id="contents">
+		<div id="rolling">
+			<span class="left_ar"><a><img src="img/icon_ar_l.png" width="31" height="52" alt="left_arrow" /></a></span>
+			<span class="right_ar"><a><img src="img/icon_ar_r.png" width="31" height="52" alt="left_arrow" /></a></span>
+			<ul class="btn">
+				<li><a href="#">to main image 1</a></li>
+				<li><a href="#">to main image 2</a></li>
+				<li><a href="#">to main image 3</a></li>
+				<li><a href="#">play / pause</a></li>
+			</ul> <!--// btn -->
+			<ul class="visual_img">
+				<li>main image 3</li>
+				<li>main image 1</li>
+				<li>main image 2</li>
+				<li>main image 3</li>
+				<li>main image 1</li>
+			</ul>
+		</div> <!--// rolling -->
+		<div class="wrap">
+			<div class="box">
+				<span><img src="img/img_main_b1.jpg" width="80" height="80" alt="Rescruit image" /></span>
+				<a href="#">
+					<p class="bold"><strong>Rescruit</strong></p>
+					<p>삼성코닝어드밴스드글라스와<br />함께 할 인재를 기다립니다.</p>
+				</a>
+			</div>
+			<div class="box">
+				<span><img src="img/img_main_b2.jpg" width="80" height="80" alt="Contact Us image" /></span>
+				<a href="#">
+					<p class="bold"><strong>Contact Us</strong></p>
+					<p>Network place<br />Information</p>
+				</a>
+			</div>
+			<div class="box">
+				<span><img src="img/img_main_b3.jpg" width="80" height="80" alt="Company image" /></span>
+				<a href="#">
+					<p class="bold"><strong>Company</strong></p>
+					<p>삼성코닝어드밴스드글라스를<br />소개합니다.</p>
+				</a>
+			</div>
+		</div> <!--// wrap -->
+	</div> <!--// contents -->
+
+
+	<!--
+	=====================================
+		푸터 영역
+		FOOTER AREA
+	=====================================
+	-->
+	<div id="footer">
+		<div class="wrap">
+			<h2><a href="#"><img src="img/logo_footer.gif" width="225" height="24" alt="footer logo" /></a></h2>
+			<div>
+				<ul>
+					<li><a href="#">고객지원</a></li>
+					<li><a href="#">개인정보 취급방침</a></li>
+					<li><a href="#">관리자에게 문의</a></li>
+					<li><a href="#">사이버감사</a></li>
+				</ul>
+				<p class="copyright">COPYRIGHTⓒ2014 SAMSUNG CORNING ADVANCED GLASS. ALL RIGHTS RESERVED.</p> <!--// copyright -->
+			</div>
+		</div> <!--// wrap -->
+	</div> <!--// footer -->
+ </body>
+</html>

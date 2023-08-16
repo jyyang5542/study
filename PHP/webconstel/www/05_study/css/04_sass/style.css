@@ -1,0 +1,43 @@
+	#result {
+	  margin: 15px 0;
+	  text-align: center;
+	  color: #FEFEFE;
+	}
+	#result .item1 {
+	  background: url("./images/bg(1).jpg");
+	}
+	#result .item2 {
+	  background: url("./images/bg(2).jpg");
+	}
+	#result .item3 {
+	  background: url("./images/bg(3).jpg");
+	}
+	#result .item4 {
+	  background: url("./images/bg(4).jpg");
+	}
+	#result .item5 {
+	  background: url("./images/bg(5).jpg");
+	}
+	#result .item6 {
+	  background: url("./images/bg(6).jpg");
+	}
+	#result .item7 {
+	  background: url("./images/bg(7).jpg");
+	}
+	#result .item8 {
+	  background: url("./images/bg(8).jpg");
+	}
+	#result .item9 {
+	  background: url("./images/bg(9).jpg");
+	}
+	#result .item10 {
+	  background: url("./images/bg(10).jpg");
+	}
+
+	.normal {
+	  font-weight: normal;
+	}
+
+	.bold {
+	  font-weight: bold;
+	}

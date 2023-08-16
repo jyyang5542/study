@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"" />
+  <title>AXA 다이렉트 사이트 퍼블리싱</title>
+
+ <link rel="stylesheet" href="../common/css/reset.css" type="text/css" />
+ <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+ <!--== 스크립트 시작 ==-->
+ <script type="text/javascript" src="../common/js/jquery-1.11.2.min.js"></script>
+ <script type="text/javascript">
+	$(document).ready(function(){
+		if ($(window).width() > 767) {
+			$('.gnb > li').mouseenter(function() {
+				$(this).children('ul:not(:animated)').slideDown();
+				$(this).mouseleave(function() {
+					$(this).children('ul:not(:animated)').slideUp();
+				});
+			});
+		} 
+	});
+ </script>
+ <!--== 스크립트 끝 ==-->
+ </head>
+ <body>
+	<div id="wrap">
+		<!--
+		=======================
+			헤더 영역
+			HEADER AREA
+		=======================
+		-->
+		<div id="header">
+			<h1><img src="img/tit_intro.png" alt="AXA 다이렉트" /></h1>
+			<h2>GLOBAL NO 1.INSURANCE BRAND</h2>
+			<ul class="gnb">
+				<li class="m1"><h3><a href="#">WELCOME</a></h3></li>
+				<li class="m2"><h3><a href="#">GLOBAL AXA</a></h3>
+					<ul>
+						<li><a href="#">AXA 연혁</a></li>
+						<li><a href="#">No.1 AXA</a></li>
+						<li><a href="#">세계 속의 AXA</a></li>
+					</ul>
+				</li>
+				<li class="m3"><h3><a href="#">AXA DIRECT KOREA</a></h3>
+					<ul>
+						<li><a href="#">회사 소개</a></li>
+						<li><a href="#">걸어온 길</a></li>
+					</ul>
+				</li>
+				<li class="m4"><h3><a href="#">PRODUCT & SERVICE</a></h3>
+					<ul>
+						<li><a href="#">다이렉트 보험이란</a></li>
+						<li><a href="#">Why AXA Direct?</a></li>
+						<li><a href="#">강력한 보상</a></li>
+						<li><a href="#">차별화된 혜택</a></li>
+						<li><a href="#">일반/상해 보험</a></li>
+					</ul>
+				</li>
+				<li class="m5"><h3><a href="#">COMMUNICATION</a></h3></li>
+			</ul> <!--// gnb -->
+		</div> <!--// header -->
+
+
+		<!--
+		=======================
+			푸터 영역
+			FOOTER AREA
+		=======================
+		-->
+		<div id="footer">
+			<div id="left">
+				<p class="copyright">© AXA Direct Korea inc., 2013</p> <!--// copyright -->
+				<ul class="contactUs">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">FACEBOOK</a></li>
+					<li><a href="#">MAIL</a></li>
+				</ul> <!--// contactUs -->
+			</div> <!--// left -->
+			<a href="#" id="right"><img src="img/logo.png" width="170" height="66" alt="logo" /></a>
+		</div> <!--// footer -->
+	</div> <!--// wrap -->
+ </body>
+</html>

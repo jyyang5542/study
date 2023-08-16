@@ -1,0 +1,91 @@
+2015-06-15 (Mon) 양정연 업무 내역
+
+1. 6월 3주차 오늘의 전단지/이주의 전단지 이미지 작업 완료
+2. 경쟁사 이미지 태블릿 화면 안에 넣은 이미지 작성 완료
+     - 매장: 얍, 시럽, TV맛집, 아이쿠폰, 국민쿠폰, 망고플레이트
+     - 배달: 배달의 민족, 요기요, 배달통
+     - 부동산: 직방, 다방
+3. 번역작업 완료
+     ※전단지 만들기는 회원가입을 해야 이용할 수 있습니다.
+     - You must sign up in order to make flyers.
+
+     잠시 기다려주세요.
+     - Please wait a moment.
+
+     준비중입니다.
+     - This function is being ready.
+
+     해당 기능은 현재 준비중이며 어플에서는 사용가능합니다.\n구글 마켓 스토어로 이동하시겠습니까?
+     - This function is being ready and you are able to fully use on application. \nWould you like to move to Google Market Store?
+
+     서버와 연결이 끊어졌습니다. 다시 로그인 해주세요.
+     - Connection to server has been disabled. Please sign in again.
+
+     신고 처리 실패하였습니다.\n다시 시도해주세요.
+     - Report failed. \nPlease try again.
+
+     서버에 등록중입니다....
+     - Your flyer is being registered....
+
+     이메일 형식이 맞지 않습니다.
+     - Wrong form of e-mail.
+
+     해당 이메일은 가입이 되지 않았습니다.\n회원가입 하시겠습니까?
+     - This e-mail is not registered. \nWould you like to sign up?
+
+     이메일로 메일이 발송되었습니다.
+     - Your e-mail has been sent to the following address.
+
+     서버오류! 인증을 재요청 해주세요.
+     - Server error! Please request your certification again.
+
+     인증번호가 틀렸습니다.
+     - Wrong certification number.
+
+     다시 등록해주세요.
+     - Please register again.
+
+     전단지 위치를 선택해주세요.
+     - Please select flyers location.
+
+     해당 익스플로러에서는 접근이 불가능합니다.\n다른 익스플로러를 실행해주세요.\nex)크롬(Chrome),사파리(safari))
+     - Approach from this browser is not able.\nPlease use different web browser.\nex)Google Chrome, Safari
+
+     잠시 기다려주세요....
+     - Please wait a moment
+
+     사진의 용량이 너무 커 5~10초 정도의 시간이 소요됩니다.
+     - Loading will take up to 10 seconds due to image size.
+4. 메인 디자인 - 배경 노란색 제거, 폰트 돋움체 이미지로 출력, 그림자
+
+
+
+To do :
+1. 저작권 관련 페이지 '사용 이미지'란 작성 (진행중)
+2. 애플리케이션 전체적인 디자인 검토
+   참고자료 :
+     - 망고플레이트
+     - 캠퍼스달
+     - 마이푸드스토리
+     - flyer
+     - 시럽
+     - 쿠폰에이드
+     - 배달고고
+     - 배꼽시계
+     - 첫차
+4. 아이스크림 프로모션 이미지
+5. CSS 수정해야할 부분
+	layout/insert.jsp
+	<div id="location">
+	<h3> <span></span></h3>
+	스팬태그에 css 적용해주세요.
+	$("#insert #location h3 span").text("(상점주소or배포장소)");
+	js에서 이런식으로 넣어져있어요
+
+
+	layout/location.jsp
+	<div id="location_hintStr"></div>
+	location_hintStr 여기에 css 적용해주세요
+
+	$("#location_hintStr").text("※ 검색하신 위치가 맞으면 확인을 눌러주세요");
+	js에는 이렇게 되어있어요

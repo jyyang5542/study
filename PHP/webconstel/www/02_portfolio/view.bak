@@ -1,0 +1,101 @@
+<?php
+	include "./_layouts/_inc/db_info.php";
+
+	$id = $_GET["id"];
+	$no = $_GET["no"];
+
+	// 글 정보 가져오기
+	$result=mysqli_query($conn, "SELECT * FROM portfolio WHERE id=$id");
+	$row=mysqli_fetch_array($result);
+?>
+
+<link rel="stylesheet" type="text/css" href="/02_portfolio/_style.css" />
+
+<div class="wrap">
+	<h2><b><span>P</span>ORTFOLIO</b></h2>
+
+	<h3><span>\</span> <b>자</b>세히 보기</h3>
+	<div id="bbsview">
+		<table cellpadding=0 cellspacing=0 border=0>
+			<tr>
+				<td><img src="<?=$row["thumbnail"];?>" class="thum" alt="썸네일" /></td>
+				<td>
+					<p class="hashtag"><?=$row["hashtag"];?></p>
+					<h3 style="text-transform:uppercase;"><?=$row["title"];?></h3>
+					<ul>
+						<li>* <b style="letter-spacing:-0.1em;">카테고리</b> : <?=$row["category"];?></li>
+						<li>* <b style="letter-spacing:-0.1em;">작업 기간</b> : <?=$row["duration"];?></li>
+						<?php if ($row['link_pc']!="") {?>
+						<li>* <b style="letter-spacing:-0.1em;"><font style="letter-spacing:0;">PC</font> 링크</b> : <a href="<?=$row["link_pc"];?>" target="_blank">바로가기</a></li>
+						<?php } if ($row['link_mobile']!="") {?>
+						<li>* <b style="letter-spacing:-0.1em;"><font style="letter-spacing:0;">MOBILE</font> 링크</b> : <a href="<?=$row["link_mobile"];?>" target="_blank">바로가기</a></li>
+						<?php } if($row['link_responsive']!="") {?>
+						<li>* <b style="letter-spacing:-0.1em;">반응형 링크</b> : <a href="<?=$row["link_responsive"];?>" target="_blank">바로가기</a></li>
+						<?php } if($row['link_pc']=="" && $row['link_mobile']=="" && $row['link_responsive']=="") {?>
+						<li><i style="color:#ccc;">등록된 링크가 존재하지 않습니다.</i></li>
+						<?php }?>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2>
+					<?php if ($row["image_1"] != NULL) {?>
+					<h3 class="cont"><span>\</span> 이미지 <b>1</b></h3>
+					<img src="<?=$row["image_1"];?>" alt="<?=$row["image_1"];?>" />
+					<?php } if ($row["image_2"] != NULL) {?>
+					<h3 class="cont"><span>\</span> 이미지 <b>2</b></h3>
+					<img src="<?=$row["image_2"];?>" alt="<?=$row["image_2"];?>" />
+					<?php } if ($row["image_3"] != NULL) {?>
+					<h3 class="cont"><span>\</span> 이미지 <b>3</b></h3>
+					<img src="<?=$row["image_3"];?>" alt="<?=$row["image_3"];?>" />
+					<?php }?>
+					<pre style="text-align:center;"><?=$row["description"];?></pre>
+				</td>
+			</tr>
+			<?php if ($row['venchmark']=="yes") {?>
+			<tr>
+				<td colspan=2 style="text-align:center;"><img src="/02_portfolio/venchmark.jpg" alt="벤치마크 안내" style="max-width:600px; margin:0 auto;" /></td>
+			</tr>
+			<?php }?>
+			<tr>
+				<td colspan=2>
+					<h4>PORTFOLIO <b>FOCUS</b><span>포트폴리오 상세내용</span></h4>
+					<table cellpadding=0 cellspacing=0 border=0 class="focus">
+						<tr>
+							<th width="25%">작업 툴</th>
+							<th width="25%">작업 스킬</th>
+							<th width="25%">작업 기간</th>
+							<th width="25%">작업 인원</th>
+						</tr>
+						<tr>
+							<td><?=$row["tools"];?></td>
+							<td><?=$row["skills"];?></td>
+							<td><?=$row["duration"];?></td>
+							<td><?=$row["members"];?></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 style="border-bottom:none;" class="btn">
+					<div class="left" align="left">
+						<?php if (isset($_SESSION['admin_ID'])) {?>
+						<a href="./?menu=portfolio&mod=write">글 쓰기</a>
+						<a href="./?menu=portfolio&mod=delete&id=<?=$id?>">글 삭제</a>
+						<?php }?>
+					</div>
+					<div class="right" align="right">
+						<p class="back" onclick='window.location.href="?menu=portfolio&mod=list"'>목록으로</p>
+					</div>
+					<div style="clear:both;"></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<?php mysqli_query("UPDATE portfolio SET view = view+1 WHERE id = $id");?>
+
+<script type="text/javascript">
+$(function() {});
+</script>

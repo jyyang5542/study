@@ -1,0 +1,49 @@
+2015-04-21 화요일 양정연 작업내역
+
+[1 인덱스]
+- 따로 작성되어있던 카테고리 페이지와 위치 설정 페이지를 인덱스 페이지 하나에 통합하였습니다.
+http://triciayang.com/publish/flyerszone/index.html
+
+[2 네비게이션 - 마이페이지]
+- 새로 작성된 페이지 입니다.
+http://triciayang.com/publish/flyerszone/navigation/mypage.html
+
+[3 네비게이션 - 전단지 보관함]
+- 새로 작성된 페이지 입니다. 제목만 있는 빈 공간입니다.
+http://triciayang.com/publish/flyerszone/navigation/save.html
+
+[4 네비게이션 - 튜토리얼]
+- 새로 작성된 페이지 입니다.
+http://triciayang.com/publish/flyerszone/navigation/tutorial.html
+
+[5 네비게이션 - 도움말]
+- 새로 작성된 페이지 입니다.
+http://triciayang.com/publish/flyerszone/navigation/help.html
+
+[6 네비게이션 - 고객만족서비스]
+- 새로 작성된 페이지 입니다.
+http://triciayang.com/publish/flyerszone/navigation/customers.html
+
+[7 네비게이션 - 약관]
+- 새로 작성된 페이지 입니다.
+http://triciayang.com/publish/flyerszone/navigation/protocols.html
+
+[8 네비게이션 - 설정]
+- 새로 작성된 페이지 입니다.
+http://triciayang.com/publish/flyerszone/navigation/settings.html
+
+[9 약도]
+- 새로 작성된 페이지 입니다. 제목만 있는 빈 공간입니다.
+http://triciayang.com/publish/flyerszone/simplemap.html
+
+[10 댓글]
+- 새로 작성된 페이지 입니다. 제목만 있는 빈 공간입니다.
+http://triciayang.com/publish/flyerszone/comment.html
+
+[11 레이아웃 1] - 레이아웃 1 : 개인 전단지 / 구인
+- 새로 작성된 페이지 입니다.
+http://triciayang.com/publish/flyerszone/layout/layout1.html
+
+[12 레이아웃 2] - 레이아웃 2 : 개인 전단지 / 방
+- 작성 중인 페이지 입니다.
+http://triciayang.com/publish/flyerszone/layout/layout2.html

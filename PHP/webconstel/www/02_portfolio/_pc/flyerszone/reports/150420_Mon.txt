@@ -1,0 +1,6 @@
+2015-04-20 월요일 양정연 작업내역
+
+[1] http://triciayang.com/publish/flyerszone/signup.html
+[2] http://triciayang.com/publish/flyerszone/makeflyer.html
+
+회원등록 페이지와 전단지 만들기 기본 페이지 레이아웃 작업 완료했습니다.

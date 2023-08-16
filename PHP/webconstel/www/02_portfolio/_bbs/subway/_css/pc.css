@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+.wrap {position:relative; width:1080px; margin:0 auto;}
+
+#notice {
+padding:15px 0;
+font-size:14px;
+text-align:center;
+line-height:1.6;
+color:white;
+background-color:#009223;
+}
+#notice .notice_close {
+position:absolute;
+display:block;
+width:20px;
+height:20px;
+top:50%;
+right:0;
+margin-top:-10px;
+line-height:20px;
+text-align:center;
+text-decoration:none;
+color:white;
+font-size:18px;
+border:1px solid white;
+}
+#notice a {color:#FFC20D;}
+
+#header {
+height:170px;
+background:white;
+border-top:4px solid #009223;
+border-bottom:1px solid #eee;
+}
+#header h1 {margin:35px 0; text-align:center;}
+#header .gnb {
+position:absolute;
+height:40px;
+padding:6px 0;
+top:0;
+right:0;
+}
+#header .gnb li {
+float:left;
+margin-left:5px;
+}
+#header .gnb li a {
+display:block;
+height:28px;
+line-height:28px;
+padding:0 13px;
+text-decoration:none;
+color:#666;
+font-size:12px;
+font-weight:bold;
+border:1px solid #ddd;
+border-radius:14px;
+}
+#header .gnb li a img {vertical-align:middle; margin-top:-2px;}
+#header .menu {}
+#header .menu li {
+float:left; 
+width:20%; 
+height:50px; 
+line-height:50px;
+padding-bottom:10px;
+text-align:center;
+font-size:18px;
+font-weight:bold;
+}
+#header .menu li a {
+text-decoration:none;
+color:#222;
+-webkit-transition: color 0.2s; /* Safari */
+transition: color 0.2s;
+}
+#header .menu li a:hover {color:#009223;}
+#header #submenu {
+position:absolute;
+display:none;
+width:100%;
+padding:25px 0;
+background:white;
+border-top:1px solid #eee;
+z-index:999;
+}
+#header #submenu ul {float:left; width:20%;}
+#header #submenu ul li {text-align:center; line-height:2.4;}
+#header #submenu ul li a {
+font-size:14px; 
+color:#666;
+-webkit-transition: color 0.2s; /* Safari */
+transition: color 0.2s;
+}
+#header #submenu ul li a:hover {color:#009223;}
+
+
+#footer {width:100%; height:150px; color:#666; background:#292929;}
+#footer .terms {height:59px;}
+#footer .terms li {float:left; margin-right:30px; line-height:59px;}
+#footer .terms li a {text-decoration:none; color:#666; font-size:13px;}
+#footer .terms li a strong {color:#B0B0B0;}
+#footer .copy {
+padding-top:15px;
+line-height:2;
+font-size:13px;
+border-top:1px solid #666;
+}
+#footer .copy a {
+position:absolute;
+width:50px;
+height:50px;
+top:50%;
+right:0;
+margin-top:-25px;
+overflow:hidden;
+background-position:0 0;
+background-image:url("");
+}
+#footer .copy a span {
+position:absolute;
+display:block;
+width:50px;
+height:50px;
+top:0;
+left:0;
+background-image:url("../images/icon_sns_facebook.png");
+background-position:50px 0;
+opacity:0;
+-webkit-transition:opacity 0.2s ease; /* Safari */
+transition:opacity 0.2s ease;
+}
+#footer .copy a span:hover {opacity:1;}
+
+
+#content {position:relative;}
+#content #nav {
+position:absolute; 
+width:100%; 
+height:59px;
+text-align:center;
+border-bottom:1px solid #E5E5E5;
+z-index:10;
+}
+#content #nav li {display:inline-block;}
+#content #nav li a {
+float:left;
+display:block;
+height:59px;
+line-height:59px;
+text-decoration:none;
+font-size:16px;
+color:#666;
+}
+#content #nav li a.on {
+height:56px;
+font-weight:bold;
+color:#009223;
+border-bottom:3px solid #009223;
+}
+#content #nav li span {
+float:left; 
+display:block;
+height:59px;
+padding:0 10px;
+line-height:59px;
+font-weight:bold;
+font-size:26px;
+color:#E5E5E5;
+}
+#content #title {position:relative;}
+#content #title h2 {
+height:296px; 
+line-height:326px; 
+text-align:center; 
+font-size:40px; 
+overflow:hidden;
+}
+#content #title #tab {
+position:absolute;
+width:100%; 
+bottom:0;
+margin-bottom:-34px;
+border-collapse:collapse;
+box-shadow:5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+#content #title #tab td {width:33.3%; border:1px solid #E5E5E5;}
+#content #title #tab td.on {border:1px solid #009223;}
+#content #title #tab td a {
+display:block;
+width:100%;
+height:66px;
+line-height:66px;
+text-align:center;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+color:#666;
+background:white;
+}
+#content #title #tab td.on a {
+color:white;
+background:#009223;
+}
+#content #cont {
+min-height:500px;
+padding-top:70px;
+padding-bottom:140px;
+background:#F6F6F6;
+}
+#content #cont ul.step {text-align:center;}
+#content #cont ul.step li {display:inline-block;}
+#content #cont ul.step li div {
+float:left;
+width:60px;
+height:51px;
+padding-top:9px;
+line-height:1.1;
+text-align:center;
+color:#bbb;
+font-size:15px;
+font-weight:bold;
+background:white;
+border:4px solid #ddd;
+border-radius:50%;
+}
+#content #cont ul.step li.on div {color:white; border-color:#009223; background:#009223;}
+#content #cont ul.step li.done div {color:#666; border-color:#009223; background:white;}
+#content #cont ul.step li.done span {color:#009223;}
+#content #cont ul.step li div b {
+display:block;
+font-size:26px;
+}
+#content #cont ul.step li span {
+float:left;
+display:block;
+padding:0 10px;
+line-height:68px;
+font-weight:bold;
+font-size:26px;
+letter-spacing:-10px;
+color:#E5E5E5;
+}
+
+div.step {margin-top:50px;}
+div.step .choice {
+padding:20px 0;
+margin-bottom:20px;
+text-align:center;
+font-size:18px;
+color:#555;
+border-radius:20px;
+border:1px dotted #ddd;
+background:#eee;
+}
+div.step .choice input {width:15px; height:15px; vertical-align:middle;}
+div.step .btns1 {position:absolute; width:100%; height:50px; top:230px;}
+div.step .btns1 a {
+position:absolute;
+display:block;
+width:50px;
+height:50px;
+text-indent:-9999px;
+overflow:hidden;
+background:url("../images/icon_event_slider_arr.png");
+}
+div.step .btns1 a.prev1 {left:0; background-position:0 0;}
+div.step .btns1 a.prev1:hover {background-position:0 50px;}
+div.step .btns1 a.next1 {right:0; background-position:50px 0;}
+div.step .btns1 a.next1:hover {background-position:50px 50px;}
+div.step > img {display:block; width:600px; margin:0 auto;}
+div.select {}
+div.select h3 {font-size:24px;}
+div.select h3 span {color:#009223;}
+div.select .border {width:50px; height:4px; margin:10px 0 20px 0; background:#FFC20D;}
+div.select ul {}
+div.select ul li {padding:15px; font-size:18px; color:#666; border-bottom:1px dotted #aaa;}
+div.select ul li b {}
+div.select ul li i {font-size:13px; color:#FFC20D;}
+div.select ul li input {display:inline-block; width:15px; height:15px; margin-right:10px; vertical-align:middle;}
+div.step .btns2 {}
+div.step .btns2 a,
+div.step .btns2 input.submit {
+display:inline-block;
+padding:10px 20px;
+text-decoration:none;
+font-size:16px;
+font-weight:bold;
+color:white;
+background:#009223;
+border:none;
+}

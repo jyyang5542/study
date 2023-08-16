@@ -1,0 +1,30 @@
+2015-04-22 수요일 양정연 작업내역
+
+[1] 전단지 레이아웃 1
+- 작성 완료되었습니다.
+triciayang.com/publish/flyerszone/layout/layout1.html
+
+[2] 전단지 레이아웃 2
+- 작성 완료되었습니다.
+triciayang.com/publish/flyerszone/layout/layout2.html
+
+[3] 전단지 레이아웃 3
+- 작성 완료되었습니다.
+triciayang.com/publish/flyerszone/layout/layout3.html
+
+[4] 전단지 레이아웃 4
+- 작성 완료되었습니다.
+triciayang.com/publish/flyerszone/layout/layout4.html
+
+[5] 전단지 레이아웃 5
+- 작성 완료되었습니다.
+triciayang.com/publish/flyerszone/layout/layout5.html
+
+[6] 전단지 레이아웃 6
+- 작성 완료되었습니다.
+triciayang.com/publish/flyerszone/layout/layout6.html
+
+
+* CSS 와 JS 파일을 관호씨가 작업하시기 편하게 정리해두었습니다.
+* INDEX 의 공유하기 부분 팝업창 제작했습니다.
+* COMMENT 부분 스타일 조정 다시 해두었습니다.

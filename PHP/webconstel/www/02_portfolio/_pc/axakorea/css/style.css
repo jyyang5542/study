@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/*********************************************************
+	AXA 다이렉트 사이트 퍼블리싱
+
+	* 작성자 : 양정연
+	* 작성일 : 2015-04-14 (Tue)
+	* 특이사항 : 반응형 웹 사이트
+
+	* 원본 사이트 : http://www.axakorea.com
+
+*********************************************************/
+
+
+
+/*****************************************
+	최소 가로 사이즈 : 1280px
+	MIN-WIDTH : 1280px
+*****************************************/
+
+@media screen and (min-width:768px) {
+
+body { width:100%; height:100%; overflow:hidden;
+	background-image:url("../img/bg_intro.png"); background-position:-150px top; background-repeat:no-repeat; }
+#wrap { width:1175px; padding-left:105px; }
+
+/* HEADER AREA */
+#header { margin-top:155px; }
+h1 img { width:270px; height:34px; margin-left:75px; }
+h2 { margin-left:38px; font-size:3em; color:white; font-family:돋움, Dotum, sans-serif; }
+
+.gnb { width:100%; margin-top:60px; }
+.gnb > li { display:block; width:235px; height:74px; float:left; text-align:center; line-height:74px; }
+.gnb > li > h3 > a { color:white; font-size:1.2em; font-family:돋움, Dotum, sans-serif; }
+.gnb > li:nth-child(1) { background-color:#cb0e13; }
+.gnb > li:nth-child(2) { background-color:#a15e00; }
+.gnb > li:nth-child(3) { background-color:#496fb2; }
+.gnb > li:nth-child(4) { background-color:#0075a4; }
+.gnb > li:nth-child(5) { background-color:#158e94; }
+
+.gnb > li > ul { display:none; }
+.gnb > li > ul > li { line-height:2; font-size:1.3em; font-weight:bold; }
+.gnb > li:nth-child(2) > ul > li > a:hover { color:#a15e00; }
+.gnb > li:nth-child(3) > ul > li > a:hover { color:#496fb2; }
+.gnb > li:nth-child(4) > ul > li > a:hover { color:#0075a4; }
+
+/* FOOTER AREA */
+#footer { clear:both; margin-top:240px; }
+#left { float:left; }
+#right { float:right; }
+
+.copyright { float:left; color:#777777; margin-right:43px; line-height:30px; }
+
+.contactUs { float:left; }
+.contactUs li { float:left; width:30px; height:30px; margin-right:10px; text-indent:-9999px; overflow:hidden; }
+.contactUs li a { display:block; width:30px; height:30px; background-image:url("../img/ico_util@2x.png"); }
+.contactUs li:nth-child(1) a { background-image:url("../img/ico_home.png"); background-position:0 0; }
+.contactUs li:nth-child(1) a:hover { background-position:0 -30px; }
+.contactUs li:nth-child(2) a { background-position:0 -30px; }
+.contactUs li:nth-child(2) a:hover { background-position:0 0; }
+.contactUs li:nth-child(3) a { background-position:-30px -30px; }
+.contactUs li:nth-child(3) a:hover { background-position:-30px -0px; }
+}
+
+
+/*****************************************
+	최대 가로 사이즈 : 767px
+	MAX-WIDTH : 767px
+*****************************************/
+@media screen and (max-width:767px) {
+
+body { width:100%; height:100%; overflow:hidden;
+	background-image:url("../img/bg_intro.png"); background-position:-235px top; background-repeat:no-repeat; }
+
+/* HEADER AREA */
+#header { margin-top:155px; }
+h1 img { width:210px; height:26px; margin-left:55px; }
+h2 { margin-left:30px; color:white; font-family:돋움, Dotum, sans-serif; font-size:1.5em; }
+
+.gnb { position:fixed; width:100%; bottom:0; }
+.gnb > li { width:100%; height:45px; padding-left:18px; line-height:45px; cursor:pointer; }
+.gnb > li:hover,
+.gnb > li:active { width:95%; }
+.gnb > li > h3 > a { color:white; font-family:돋움, Dotum, sans-serif; font-size:1em; }
+.gnb > li:nth-child(1) { background-color:#cb0e13; }
+.gnb > li:nth-child(2) { background-color:#a15e00; }
+.gnb > li:nth-child(3) { background-color:#496fb2; }
+.gnb > li:nth-child(4) { background-color:#0075a4; }
+.gnb > li:nth-child(5) { background-color:#158e94; }
+
+.gnb > li > ul { display:none; }
+
+/* FOOTER AREA */
+#footer { display:none; }
+}

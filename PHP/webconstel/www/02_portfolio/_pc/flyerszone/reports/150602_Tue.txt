@@ -1,0 +1,17 @@
+2015-06-02 (Tue) 양정연 업무 내역
+
+1. select/option 코드 기능 정리
+     http://blog.naver.com/jyyang716/220377292684
+2. 개인 전단지 - 개인 기타(파노라마) 2개 Layout 작업 완료.
+     layout9.jsp : 가로형 파노라마
+     layout10.jsp : 세로형 파노라마
+3. 개인 전단지 - 개인 기타(파노라마) 2개 Preview 작업 완료.
+4. Insert - 개인 전단지 기타/축제/재미 파노라마 형태 추가.
+     - js 추가 및 이미지 형태 선택 이미지 추가에 따른 jsp 및 css 문서 수정.
+5. Eclipse에 붙였을 때 충돌나는 오류들 수정.
+
+
+
+To do :
+1. Preview 단에서 margin 및 폭 전체적인 조정 (팀장님과 코옵)
+9. 개인/구인 (레이아웃1) input -> textarea CSS (다음주)

@@ -1,0 +1,10 @@
+2015-04-16 목요일 양정연 작업내역
+
+작업 결과물: 두 작업모두 해상도 가로 767px을 기준으로 한 반응형 웹입니다.
+[1] http://triciayang.com/publish/flyerszone/index.html
+[2] http://triciayang.com/publish/flyerszone/location.html
+
+HTML 문서작업 및 CSS 스타일 작업, 간단한 제이쿼리 모션 코딩.
+ 
+따로 주신 호스팅 공간이 없어 우선 지원때 첨부했던 포트폴리오 호스팅 공간에 업로드해두었습니다.
+호스팅 공간 지원해주신다면 안내해주신 서버에 재업로드 하겠습니다.

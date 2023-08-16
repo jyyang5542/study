@@ -1,0 +1,32 @@
+2015-06-09 (Tue) 양정연 업무 내역
+
+1. 번역작업
+     - 통신환경에 따라 로딩이 길어질 수 있습니다. 로딩이 지속될 경우 새로고침을 해주세요.
+     - Loading can be delayed due to your communication environment. If your loading continues, please press 'refresh' button.
+2. main.css 재수정 (오버라이드 됐었음.)
+3. 업종선택 영역 CSS 수정 완료 ( 자동으로 ul 높이값 맞추는데 지체. )
+     - 카테고리 내부에서 카테고리 세부사항 추가시 동적으로 margin값 결정되는지 확인
+     - 피자/파스타 카테고리에 엔터 추가됨.<3줄에 맞춰서 나머지 카테고리 상자도 height값 조절
+4. 전단지존 애플리케이션 첫 화면 전단지 번역 작업
+     - Welcome
+     - 정말 쉬운 전단지존 활용 팁 : 
+	Tips for FlyersZONE Beginner
+     - 전단지 보시려면 좌우측으로 움직이면 끝:
+	Slide left and right to see various flyers
+     - 지역, 업종을 선택하시면 선택한 것만 쏙:
+	Location, business categories to suit your own select
+     - 모아보기, 정렬, 전화, 약도, 공유, 댓글 가능:
+	Flyers gallery, arrangement, call, map, share, comment available
+     - 누구나 무료로 빠르게 전단지 만들기까지:
+	Free and fast Flyers publishing opened to everyone!
+5. 프로모션 이미지 (게시판, 락커, 농구공 컨셉) 작업 완료
+6. PPT용 이미지 3종 (핸드폰 3개, PC 모니터 화면, 태블릿) 및 커버 이미지 작성 완료
+7. 프로모션 세트 엔딩이미지 네이버와 다음 로고 크기 줄이기 완료
+
+
+To do :
+1. 전체 디자인 수정
+   - 진행 현황 : http://triciayang.com/design.html
+4. 영어/한국어 호환
+5. Insert Category 수정 (1줄 경우의 수, 2줄 경우의 수)
+7. 전단지에 테이프 붙인거 30개짜리

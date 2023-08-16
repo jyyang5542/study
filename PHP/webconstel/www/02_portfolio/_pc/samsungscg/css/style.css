@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/**********************************************************************
+	삼성코닝어드밴스드글라스 사이트 퍼블리싱
+
+	* 작성자 : 양정연
+	* 작성일 : 2015-04-13 (Mon)
+	* 원본 사이트 주소 : http://www.samsungscg.co.kr/
+**********************************************************************/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@font-face {
+	font-family: 'NanumGB';
+	src: url('http://themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot?#iefix');
+	src: local('?'),
+		 url('http://themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body { width:100%; height:100%; overflow-x:hidden; font-family:"NanumGB", sans-serif; }
+.wrap { width:940px; margin:0 auto; }
+
+
+
+/*************************************
+	헤더 영역
+	HEADER AREA
+*************************************/
+#header { height:90px; border-bottom:1px solid #d0d0d0; }
+#header > .wrap { height:63px; }
+#header h1 { float:left; margin-top:40px; }
+#header ul { float:right; }
+#header ul li { float:left; height:63px; margin-right:44px; }
+#header ul li:nth-child(3) { width:80px; margin-right:0; border-right:1px solid #ebebeb; }
+#header ul li:last-child { margin-right:0; margin-left:29px; }
+#header ul li a { display:block; height:20px; padding-top:43px; }
+
+
+/*************************************
+	콘텐츠 영역
+	CONTENTS AREA
+*************************************/
+#contents { height:671px; border-bottom:1px solid #d0d0d0; }
+#rolling { width:1920px; height:496px; background-color:silver; overflow:hidden; margin:0 auto; }
+
+#rolling span { position:absolute; z-index:10; }
+.left_ar { top:320px; left:10px; }
+.right_ar { top:320px; right:10px; }
+
+#rolling .btn { position:relative; z-index:10; top:300px; left:50%; margin-left:-472px; }
+.btn li { float:left; margin-right:3px; }
+.btn li:last-child { margin-right:0; margin-left:6px; }
+.btn li a { display:block; width:19px; height:20px; text-indent:-9999px; overflow:hidden; background-image:url("../img/icon_play_a.png"); background-repeat:no-repeat; }
+.btn li:nth-child(1) a { background-position:-7px -5px; }
+.btn li:nth-child(1) a:hover,
+.btn li:nth-child(1) a.active { background-position:-7px -25px; }
+
+.btn li:nth-child(2) a { background-position:-28px -5px; }
+.btn li:nth-child(2) a:hover,
+.btn li:nth-child(2) a.active { background-position:-28px -25px; }
+
+.btn li:nth-child(3) a { background-position:-49px -5px; }
+.btn li:nth-child(3) a:hover,
+.btn li:nth-child(3) a.active { background-position:-49px -25px; }
+
+.btn li:nth-child(4) a { background-position:-76px -25px; }
+.btn li:nth-child(4) a.active { background-position:-76px -5px; }
+
+
+#rolling .visual_img { position:relative; width:9600px; height:496px; left:-1920px; }
+.visual_img li { width:1920px; height:496px; float:left; text-indent:-9999px; overflow:hidden; }
+.visual_img li:nth-child(1) { background-image:url("../img/main_img3.jpg"); background-repeat:no-repeat; }
+.visual_img li:nth-child(2) { background-image:url("../img/main_img1.jpg"); background-repeat:no-repeat; }
+.visual_img li:nth-child(3) { background-image:url("../img/main_img2.jpg"); background-repeat:no-repeat; }
+.visual_img li:nth-child(4) { background-image:url("../img/main_img3.jpg"); background-repeat:no-repeat; }
+.visual_img li:nth-child(5) { background-image:url("../img/main_img1.jpg"); background-repeat:no-repeat; }
+
+#contents > .wrap { text-align:center; height:175px; }
+.box { display:inline-block; width:310px; height:80px; margin-top:40px; }
+.box span { float:left; }
+.box a { float:left; text-align:left; margin:18px 0 0 20px; }
+.box p:first-of-type { color:#133984; font-size:14px; line-height:2; }
+.box p { color:#666666; line-height:1.3; }
+
+
+/*************************************
+	푸터 영역
+	FOOTER AREA
+*************************************/
+#footer { height:124px; }
+#footer .wrap { width:750px; padding-top:50px; }
+#footer h2 { float:left; }
+#footer .wrap div { float:left; margin-left:25px; }
+#footer ul li { float:left; background-image:url("../img/icon_line.gif"); background-repeat:no-repeat; background-position:right bottom; }
+#footer ul li:nth-child(1) { width:55px; }
+#footer ul li:nth-child(2) { width:113px; text-align:center; }
+#footer ul li:nth-child(3) { width:101px; text-align:center; }
+#footer ul li:nth-child(4) { margin-left:9px; background:none; }
+#footer ul li a { color:#444444; }
+.copyright { clear:both; color:#767676; }

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0, user-scalable=1" />
+<title>블레이드 & 소울 퍼블리싱</title>
+
+
+ <link rel="stylesheet" href="css/reset.css" type="text/css" />
+ <link rel="stylesheet" href="css/style.css" type="text/css" />
+ <style type="text/css">
+ </style>
+
+ <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+ <script type="text/javascript">
+$(document).ready(function(){
+	$('#header #gnb #gnb_wrap > ul > li > .menu').mouseenter(function() {
+		$('#header #gnb #gnb_wrap > ul > li ul').hide();
+		$(this).parent().children().show();
+		$('#header #gnb #gnb_wrap ul li ul').mouseleave(function() {
+			$('#header #gnb #gnb_wrap > ul > li ul').hide();
+		});
+	});
+});
+ </script>
+</head>
+<body>
+	<!--
+	==============================
+		헤더 영역
+		HEADER AREA
+	==============================
+	-->
+	<div id="header">
+		<div id="ui">
+			<ul class="ui_left">
+				<li><h2><a href="#">PLAY NC</a></h2></li>
+				<li><a href="#">블레이드&소울</a></li>
+				<li><a href="#">N샵</a></li>
+				<li><a href="#">더보기</a></li>
+			</ul> <!--// ui_left -->
+			<ul class="ui_right">
+				<li><a href="#">고객센터</a><span></span></li>
+				<li><a href="#">회원가입</a></li>
+				<li><span class="sign_in"><a href="#">로그인</a></span></li>
+			</ul> <!--// ui_right -->
+		</div> <!--// ui -->
+		<form id="gnb">
+			<fieldset>
+				<div id="gnb_wrap">
+					<legend>Global Navigation Bar</legend>
+					<ul>
+						<li><h1><a href="#">Blade & Soul</a></h1></li>
+						<li class="input"><input type="text" name="search" value="" id="search_bar" /></li>
+						<li class="m1"><a href="#" class="menu">게임소개</a></li>
+						<li class="m2"><a href="#" class="menu">가이드</a>
+							<ul>
+								<span class="gnb_top"></span> <!--// gnb_top -->
+								<li><a href="#">파워북</a></li>
+								<span class="gnb_bottom"></span> <!--// gnb_bottom -->
+							</ul>
+						</li>
+						<li class="m3"><a href="#" class="menu">블소월드</a>
+							<ul>
+								<span class="gnb_top"></span> <!--// gnb_top -->
+								<li><a href="#">캐릭터</a></li>
+								<li><a href="#">시장</a></li>
+								<li><a href="#">문파</a></li>
+								<li><a href="#">랭킹</a></li>
+								<li><a href="#">출석부</a></li>
+								<span class="gnb_bottom"></span> <!--// gnb_bottom -->
+							</ul>
+						</li>
+						<li class="m4"><a href="#" class="menu">커뮤니티</a>
+							<ul>
+								<span class="gnb_top"></span> <!--// gnb_top -->
+								<li><a href="#">직업게시판</a></li>
+								<li><a href="#">서버게시판</a></li>
+								<li><a href="#">자유게시판</a></li>
+								<li><a href="#">이미지게시판</a></li>
+								<li><a href="#">수련 시뮬레이터</a></li>
+								<li><a href="#">블소TV</a></li>
+								<li><a href="#">애니메이션</a></li>
+								<li><a href="#">비주얼 매거진</a></li>
+								<span class="gnb_bottom"></span> <!--// gnb_bottom -->
+							</ul>
+						</li>
+						<li class="m5"><a href="#" class="menu">소식</a>
+							<ul>
+								<span class="gnb_top"></span> <!--// gnb_top -->
+								<li><a href="#">공지</a></li>
+								<li><a href="#">업데이트</a></li>
+								<li><a href="#">e편한 패치</a></li>
+								<li><a href="#">이벤트</a></li>
+								<li><a href="#">비무</a></li>
+								<span class="gnb_bottom"></span> <!--// gnb_bottom -->
+							</ul>
+						</li>
+						<li class="m6"><a href="#" class="menu">샌드박스</a>
+							<ul>
+								<span class="gnb_top"></span> <!--// gnb_top -->
+								<li><a href="#">뉴스피드</a></li>
+								<li><a href="#">친구찾기</a></li>
+								<li><a href="#">NC친구</a></li>
+								<span class="gnb_bottom"></span> <!--// gnb_bottom -->
+							</ul>
+						</li>
+						<li class="m7"><a href="#" class="menu">블소 N샵</a></li>
+						<li><a href="#">게임시작</a></li>
+						<li><a href="#">클라이언트 다운로드</a></li>
+					</ul>
+				</div> <!--// gnb_wrap -->
+			</fieldset>
+		</form> <!--// gnb -->
+	</div> <!--// header -->
+
+
+
+	<!--
+	==============================
+		콘텐츠 영역
+		CONTENTS AREA
+	==============================
+	-->
+	<div id="contents">
+		<form id="log_in">
+			<fieldset>
+				<legend>Log in</legend>
+				<input type="text" name="id_or_email" id="id_or_email" value="아이디 또는 이메일" />
+				<input type="password" name="password" id="password" value="비밀번호" />
+				<button id="loginBtn">로그인</button>
+				<input type="checkbox" name="save_id" id="save_id" />
+				<label>아이디 저장</label>
+				<ul class="login_etc">
+					<li><a href="#">회원가입</a> |</li>
+					<li><a href="#">&nbsp;계정/비밀번호 찾기</a></li>
+				</ul> <!--// login_etc -->
+			</fieldset>
+		</form> <!--// log_in -->
+
+		<div id="content1">
+			<div id="visual_img"></div>
+			<div id="cont1_nav_bg">
+				<ul class="content1_nav">
+					<li><a href="#">테섭 다녀오겠습니다</a></li>
+					<li><a href="#">홍문령, 창천</a></li>
+					<li><a href="#">오늘은 성&공!</a></li>
+					<li><a href="#">2015 KOREA 시즌1</a></li>
+					<li><a href="#">더할패치</a></li>
+					<li><a href="#">5월 출석부, 황금을 잡아라!</a></li>
+				</ul> <!--// content1_nav -->
+			</div> <!--// cont1_nav_bg -->
+		</div> <!--// content1 -->
+
+		<div id="content2">
+			<ul class="about_bns">
+				<li><a href="#">블소에 처음 오셨나요?</a></li>
+				<li><a href="#">블소에 오랜만에 오셨군요!</a></li>
+				<li><a href="#">블소로 모험을 떠나자!</a></li>
+			</ul> <!--// about_bns -->
+		</div> <!--// content2 -->
+		
+		<div id="content3">
+			<div id="content3_1">
+				<a id="info1" class="bns_info"></a> <!--// info1 -->
+				<a id="info2" class="bns_info"></a> <!--// info2 -->
+				<a id="info3" class="bns_info"></a> <!--// info3 -->
+			</div> <!--// content3_1 -->
+			<div id="content3_2">
+				<a id="info4" class="bns_info"></a> <!--// info4 -->
+				<a id="info5" class="bns_info"></a> <!--// info5 -->
+				<a id="info6" class="bns_info"></a> <!--// info6 -->
+			</div> <!--// content3_2 -->
+			<div id="content3_3">
+				<a id="info7" class="bns_info"></a> <!--// info7 -->
+			</div> <!--// content3_2 -->
+		</div> <!--// content3 -->
+
+		<div id="mxm"><a href="#">포화란의 MXM 소풍</a></div> <!--// mxm -->
+		<div id="see_more"><a href="#">스크롤을 내려 더 많은 이야기를 만나보세요.</a></div> <!--// see_more -->
+	</div> <!--// contents -->
+
+
+
+	<!--
+	==============================
+		푸터 영역
+		FOOTER AREA
+	==============================
+	-->
+	<div id="footer">
+		<div id="footer1">
+			<ul class="footer1_left">
+				<li><a href="#">고객센터</a><span class="line"></span></li>
+				<li><a href="#">계정도용 신고</a><span class="line"></span></li>
+				<li><a href="#">불량이용자 신고</a><span class="line"></span></li>
+				<li><a href="#">보안서비스</a><span class="line"></span></li>
+				<li><a href="#">채팅로그조회</a></li>
+			</ul> <!--// footer1_left -->
+			<ul class="footer1_right">
+				<li><strong><a href="#">팬 사이트</a></strong></li>
+				<li><a href="#">인벤</a><span class="line"></span></li>
+				<li><a href="#">게임조선</a><span class="line"></span></li>
+				<li><a href="#">TIG</a><span class="line"></span></li>
+				<li><a href="#">게임메카</a></li>
+			</ul> <!--// footer1_right -->
+		</div> <!--// footer1 -->
+
+		<div id="footer2">
+			<ul class="footer2_left">
+				<li><a href="#">회사소개</a><span class="footer_line"></span></li>
+				<li><a href="#">이용약관</a><span class="footer_line"></span></li>
+				<li><a href="#"><strong>개인정보 취급(처리) 방침</strong></a><span class="footer_line"></span></li>
+				<li><a href="#"><strong>청소년 보호 정책</strong></a><span class="footer_line"></span></li>
+				<li><a href="#">운영정책</a><span class="footer_line"></span></li>
+				<li><a href="#">게임이용등급</a></li>
+			</ul> <!--// footer2_left -->
+			<a class="pc_room" href="#"><span></span><strong>PC방 홈페이지</strong></a> <!--// pc_room -->
+		</div> <!--// footer2 -->
+		<div id="footer3">
+			<div id="nc_info">
+				<h2><a href="#" class="ncsoft">NCSOFT</a></h2> <!--// ncsoft -->
+				<a href="#" class="bus_info">사업자정보확인</a> <!--// bus_info -->
+				<a href="#" class="nc_email">credit@ncsoft.com</a> <!--// nc_email -->
+			</div>
+
+			<span class="powered_by"><a href="#">Team Bloodlust</a></span> <!--// powered_by -->
+		</div> <!--// footer3 -->
+	</div> <!--// footer -->
+</body>
+</html>
+

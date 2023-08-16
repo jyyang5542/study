@@ -1,0 +1,200 @@
+@charset="UTF-8";
+
+/***************************************************************
+	전단지ZONE 미디어 관련 보고서 
+	- 스타일시트(폰트)
+
+	* 작성일: 2015-06-11 (Thu)
+	* 작성자: 양정연
+***************************************************************/
+
+/* 웹 폰트 ( WEB FONTS ) */
+@font-face { font-family:"pado"; src:url("../font/pado.eot"); } /* 파도 소리 eot */
+@font-face { font-family:"pado"; src:url("../font/pado.woff"); } /* 파도 소리 woff */
+
+@font-face { font-family:"mokyoktang"; src:url("../font/mokyoktang.eot"); } /* 옛날 목욕탕 eot */
+@font-face { font-family:"mokyoktang"; src:url("../font/mokyoktang.woff"); } /* 옛날 목욕탕 woff */
+
+@font-face { font-family:"heum"; src:url("../font/heumgothic.eot"); } /* 헤움 진고딕 eot */
+@font-face { font-family:"heum"; src:url("../font/heumgothic.woff"); } /* 헤움 진고딕 woff */
+
+@font-face { font-family:"namu"; src:url("../font/HYNAMB.eot"); } /* 나무 eot */
+@font-face { font-family:"namu"; src:url("../font/HYNAMB.woff"); } /* 나무 woff */
+
+@font-face { font-family:"namu"; src:url("../font/wooleongdo.eot"); } /* 울릉도 eot */
+@font-face { font-family:"namu"; src:url("../font/wooleongdo.woff"); } /* 울릉도 woff */
+
+@font-face { font-family:"interpark"; src:url("../font/interpark_gothic.eot"); } /* 인터파크 고딕 eot */
+@font-face { font-family:"interpark"; src:url("../font/interpark_gothic.woff"); } /* 인터파크 고딕 woff */
+
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color:white;
+}
+
+/*********************************************
+	폰트 영역
+	FONTS AREA
+*********************************************/
+#fonts {
+	position: relative;
+	width: 100%;
+}
+
+/* 폰트 - 헤더 */
+#fonts #header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	background-color: #F29423;
+	border-bottom: 5px solid #333;
+	z-index:500;
+}
+#fonts #header #header_wrap {
+	position: absolute;
+	width: 1024px;
+	height: 100px;
+	top: 0;
+	left: 50%;
+	margin-left: -512px;
+}
+#fonts #header #header_wrap h1 {
+	position: absolute;
+	font-family: "pado";
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	left: 0;
+	bottom: 0px;
+}
+#fonts #header #header_wrap h2 {
+	position: absolute;
+	font-family: "pado";
+	font-size: 18px;
+	font-weight: normal;
+	color: white;
+	left: 220px;
+	bottom: 6px;
+}
+#fonts #header .gnb {
+	position: absolute;
+	width: 550px;
+	height: 30px;
+	right: 0;
+	bottom: 6px;
+}
+#fonts #header .gnb li {
+	display: block;
+	width: 110px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+#fonts #header .gnb li a {
+	display: block;
+	font-family: "mokyoktang";
+	font-size: 18px;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+}
+#fonts #header .gnb li:nth-child(4) a {
+	color: #333;
+	font-size: 20px;
+}
+#fonts #header .gnb li a:hover,
+#fonts #header .gnb li a:active {
+	color: #333;
+}
+
+/* 폰트 - 콘텐츠 */
+#fonts #contents {
+	position: relative;
+	width: 1024px;
+	font-size: 16px;
+	margin-top: 180px;
+	left: 50%;
+	margin-left: -512px;
+}
+#fonts #contents h3 {
+	font-family: "pado";
+	font-size: 60px;
+	font-weight: normal;
+	color: #F29423;
+}
+#fonts #contents h4 {
+	font-family: "mokyoktang";
+	font-size: 32px;
+	font-weight: normal;
+	color: #333;
+}
+#fonts #contents h4 a {
+	font-size:18px;
+	color:#55ACEE;
+}
+#fonts #contents ol {
+	margin-bottom:60px;
+}
+#fonts #contents ol li {
+	list-style-type:decimal;
+	font-size: 16px;
+	color:#333;
+}
+#fonts #contents ol li span {
+	font-size:25px;
+	color:#F29423;
+}
+#fonts #contents ol li a {
+	font-family:"mokyoktang";
+	font-size:14px;
+	color:#55ACEE;
+}
+#fonts #contents p a {
+	font-family:"mokyoktang";
+	font-size:16px;
+	color:#55ACEE;
+}
+#fonts #contents .font_etc li:nth-of-type(2) a:nth-of-type(2) {
+	font-size:16px;
+}
+#fonts #contents .pado { font-family:"pado"; }
+#fonts #contents .mokyoktang { font-family:"mokyoktang"; }
+#fonts #contents .wooleongdo { font-family:"wooleongdo"; }
+#fonts #contents .namu { font-family:"namu"; }
+#fonts #contents .interpark { font-family:"interpark"; }
+#fonts #contents .heum { font-family:"heum"; }
+#fonts #contents strong { font-size:18px; }
+
+/* 폰트 - 푸터 */
+#fonts #footer {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	margin-top: 30px;
+	padding-top: 30px;
+	background-color: #eee;
+}
+#fonts #footer #footer_wrap {
+	position: relative;
+	width: 1024px;
+	height: 120px;
+	margin: 0 auto;
+}
+#fonts #footer #footer_wrap p {
+	font-family: "mokyoktang";
+	font-size: 18px;
+	color: #333;
+}
+#fonts #footer #footer_wrap p a {
+	font-family:"mokyoktang";
+	color: #55ACEE;
+}
+#fonts #footer .publisher {
+	margin-top: 15px;
+}

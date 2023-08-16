@@ -1,0 +1,214 @@
+@charset="UTF-8";
+
+/***************************************************************
+	전단지ZONE 미디어 관련 보고서 
+	- 스타일시트(이미지)
+
+	* 작성일: 2015-06-12 (Fri)
+	* 작성자: 양정연
+***************************************************************/
+
+/* 웹 폰트 ( WEB FONTS ) */
+@font-face { font-family:"pado"; src:url("../font/pado.eot"); } /* 파도 소리 eot */
+@font-face { font-family:"pado"; src:url("../font/pado.woff"); } /* 파도 소리 woff */
+
+@font-face { font-family:"mokyoktang"; src:url("../font/mokyoktang.eot"); } /* 옛날 목욕탕 eot */
+@font-face { font-family:"mokyoktang"; src:url("../font/mokyoktang.woff"); } /* 옛날 목욕탕 woff */
+
+@font-face { font-family:"interpark"; src:url("../font/interpark_gothic.eot"); } /* 인터파크 고딕 eot */
+@font-face { font-family:"interpark"; src:url("../font/interpark_gothic.woff"); } /* 인터파크 고딕 woff */
+
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color:white;
+}
+
+/*********************************************
+	이미지 영역
+	IMAGES AREA
+*********************************************/
+#images {
+	position: relative;
+	width: 100%;
+}
+
+/* 이미지 - 헤더 */
+#images #header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	background-color: #F29423;
+	border-bottom: 5px solid #333;
+	z-index:500;
+}
+#images #header #header_wrap {
+	position: absolute;
+	width: 1024px;
+	height: 100px;
+	top: 0;
+	left: 50%;
+	margin-left: -512px;
+}
+#images #header #header_wrap h1 {
+	position: absolute;
+	font-family: "pado";
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	left: 0;
+	bottom: 0px;
+}
+#images #header #header_wrap h2 {
+	position: absolute;
+	font-family: "pado";
+	font-size: 18px;
+	font-weight: normal;
+	color: white;
+	left: 220px;
+	bottom: 6px;
+}
+#images #header .gnb {
+	position: absolute;
+	width: 550px;
+	height: 30px;
+	right: 0;
+	bottom: 6px;
+}
+#images #header .gnb li {
+	display: block;
+	width: 110px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+#images #header .gnb li a {
+	display: block;
+	font-family: "mokyoktang";
+	font-size: 18px;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+}
+#images #header .gnb li:nth-child(3) a {
+	color: #333;
+	font-size: 20px;
+}
+#images #header .gnb li a:hover,
+#images #header .gnb li a:active {
+	color: #333;
+}
+
+/* 이미지 - 콘텐츠 */
+#images #contents {
+	position: relative;
+	width: 1024px;
+	font-size: 16px;
+	margin-top: 180px;
+	left: 50%;
+	margin-left: -512px;
+}
+#images #contents h3 {
+	font-family: "pado";
+	font-size: 60px;
+	font-weight: normal;
+	color: #F29423;
+}
+#images #contents h4 {
+	font-family: "mokyoktang";
+	font-size: 32px;
+	font-weight: normal;
+	color: #333;
+	margin-top:60px;
+}
+#images #contents h4:nth-of-type(1) { margin-top:0; }
+#images #contents h4 a {
+	font-size:18px;
+	color:#55ACEE;
+}
+#images #contents h5 {
+	font-size:24px;
+	font-family:"interpark";
+	font-weight:normal;
+	color:#F29423;
+}
+#images #contents h5:not(:nth-of-type(1)) {
+	margin-top:50px;
+}
+#images #contents h6 {
+	font-size:26px;
+	font-family:"interpark";
+	margin-top:40px;
+}
+#images #contents #app_view_image h6:nth-of-type(1) {
+	margin-top:0;
+}
+#images #contents .app_image {
+	position:relative;
+	width:100%;
+	padding:10px;
+	background-color:gray;
+	text-align:center;
+}
+#images #contents .app_image img {
+	display:inline-block;
+	vertical-align:middle;
+}
+#images #contents .app_image img:not(:last-child) {
+	margin-right:10px;
+}
+#images #contents #app_tutorial,
+#images #contents #app_help {
+	position:relative;
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+}
+#images #contents #app_tutorial img:not(:last-child) {
+	margin-right:5px;
+}
+#images #contents #app_help img:nth-of-type(1) {
+	margin-bottom:5px;
+}
+#images #contents .memo {
+	color:gray;
+	text-align:right;
+}
+#images #contents .none {
+	font-family:"mokyoktang";
+	font-size:24px;
+	color:silver;
+}
+
+/* 이미지 - 푸터 */
+#images #footer {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	margin-top: 30px;
+	padding-top: 30px;
+	background-color: #eee;
+}
+#images #footer #footer_wrap {
+	position: relative;
+	width: 1024px;
+	height: 120px;
+	margin: 0 auto;
+}
+#images #footer #footer_wrap p {
+	font-family: "mokyoktang";
+	font-size: 18px;
+	color: #333;
+}
+#images #footer #footer_wrap p a {
+	font-family:"mokyoktang";
+	color: #55ACEE;
+}
+#images #footer .publisher {
+	margin-top: 15px;
+}

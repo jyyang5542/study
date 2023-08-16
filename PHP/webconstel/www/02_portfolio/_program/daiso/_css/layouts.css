@@ -1,0 +1,55 @@
+@import url("./reset.css");
+
+body {overflow-x:hidden; overflow-y:auto; background:#F1F1F1;}
+.wrap {position:relative; width:1080px; margin:0 auto;}
+
+/***** 헤더 영역 *****/
+header {}
+header .notice {height:40px; line-height:40px; text-align:center; color:white; background:#E60012;}
+header .notice a:not(.close_notice) {color:yellow;}
+header .notice a.close_notice {
+	position:absolute;
+	display:block; 
+	width:18px; 
+	height:18px; 
+	top:50%;
+	right:0;
+	margin-top:-10px;
+	line-height:18px;
+	text-align:center;
+	text-decoration:none; 
+	color:inherit; 
+	border:1px solid white;
+}
+header #gnb {height:32px; line-height:32px; text-align:right; font-size:15px; color:#A7A7A7; background:#F1F1F1; border-bottom:1px solid #D5D5D5;}
+header #gnb a {text-decoration:none;}
+header #menu {height:74px; line-height:74px; background:white; border-bottom:1px solid #D5D5D5;}
+header #menu h1 {float:left; height:39px; margin-top:17px;}
+header #menu ul {float:left; margin-left:40px;}
+header #menu ul li {float:left;}
+header #menu ul li:not(:last-of-type) {margin-right:24px;}
+header #menu ul li a {text-decoration:none; font-size:18px; font-weight:bold;}
+header #menu ul li a:hover {color:#E60012;}
+header #menu p.quick {float:right;}
+header #menu p.quick a {float:left; display:block; width:110px; height:74px; border-left:1px solid #D5D5D5;}
+header #menu p.quick a:last-of-type {border-right:1px solid #D5D5D5;}
+header #menu p.quick a img {display:block; width:61px; height:43px; margin:15px auto 0 auto;}
+header #submenu {position:relative; height:60px; line-height:60px; z-index:999;}
+header #submenu a {display:inline-block; font-size:14px;}
+header #submenu a:not(:last-of-type) {margin-right:30px;}
+
+
+/***** 푸터 영역 *****/
+footer {padding:25px 0; background:white; border-top:1px solid #D5D5D5;}
+footer #footer_top {margin-bottom:14px;}
+footer #footer_top ul {}
+footer #footer_top ul li {float:left;}
+footer #footer_top ul li:not(:last-of-type)::after {content:"\00a0\00a0|\00a0\00a0"; font-weight:bold; color:#ACACAC;}
+footer #footer_top ul li a {text-decoration:none;}
+footer #footer_top ul.terms {float:left;}
+footer #footer_top p.sns {float:right;}
+footer #footer_top p.sns img {float:left; width:20px; height:20px; margin-left:24px;}
+footer #footer_top ul.family {float:right;}
+footer #footer_btm {}
+footer #footer_btm img {float:left; height:63px; margin-right:15px;}
+footer #footer_btm address {float:left; font-size:12px;}

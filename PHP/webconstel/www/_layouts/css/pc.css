@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import "/_layouts/css/reset.css";
+
+html, body {}
+body {overflow-x:hidden; overflow-y:auto;}
+
+
+/*** SIDE : START ***/
+#side {position:fixed; width:280px; height:100vh; top:0; left:0; text-align:center; background:#F5F5F5;}
+#side h1 {margin:80px auto 50px auto; line-height:1; font-size:46px; font-family:"Roboto Condensed", sans-serif;}
+#side h1 a {text-decoration:none !important; color:#333;}
+#side h1 a span {color:#547DBF;}
+#side ul.nav {}
+#side ul.nav li {line-height:2.4;}
+#side ul.nav li a {
+	text-decoration:none !important; 
+	color:#555;
+	font-size:20px;
+	font-family:"Roboto Condensed", sans-serif;
+}
+@keyframes sideOn {
+	from {color:#555;}
+	to {color:#547DBF;}
+}
+#side ul.nav li a:hover {
+	animation-name:sideOn;
+	animation-duration:0.5s;
+	color:#547DBF;
+}
+#side ul.nav li a.on {color:#547DBF;}
+#side p.copy {
+	position:absolute;
+	width:100%;
+	left:0;
+	color:#777;
+	font-size:13px;
+	bottom:50px;
+}
+#side p.copy b {color:#547DBF;}
+/*** SIDE : END ***/
+
+
+/*** CONTENT : START ***/
+#content {position:absolute; width:calc(100% - 440px); right:0; padding:30px 80px;}
+#content #header {position:relative; width:100%; height:60px; line-height:60px;}
+#content #header ul.gnb {position:absolute; top:0; right:0;}
+#content #header ul.gnb li {float:left; height:60px; line-height:60px;}
+#content #header ul.gnb li a {
+	margin-left:40px;
+	text-decoration:none;
+	color:#555;
+	font-size:18px;
+	font-family:"Roboto Condensed", sans-serif;
+}
+@keyframes headerOn {
+	from {color:#555;}
+	to {color:#547DBF;}
+}
+#content #header ul.gnb li a:hover {
+	animation-name:sideOn;
+	animation-duration:0.5s;
+	color:#547DBF;
+}
+#content #header ul.gnb li a img {
+	display:inline-block;
+	margin-top:-4px;
+	vertical-align:middle;
+}
+#content .wrap {}
+#content .wrap h2 {
+	margin-top:60px;
+	line-height:1.1;
+	font-size:90px; 
+	font-family:"Roboto Condensed", sans-serif;
+	font-weight:normal;
+}
+#content .wrap h2 span {color:#547DBF;}
+#content .wrap h4 {
+	margin-top:20px;
+	color:#999;
+	font-size:18px;
+	font-weight:normal;
+}
+#content .wrap h3 {
+	height:50px;
+	line-height:50px;
+	margin-top:100px;
+	padding-bottom:10px;
+	letter-spacing:-0.1em;
+	font-size:28px;
+	font-family:"Roboto Condensed", sans-serif;
+	border-bottom:1px dotted #ddd;
+}
+#content .wrap h3 b {color:#547DBF;}
+#content .wrap h3 span {font-weight:normal; color:#aaa;}
+#content .wrap h3 span::after {content:"\00a0\00a0";}
+#content .tab {
+	margin-top:20px;
+}
+#content .tab a {
+	display:inline-block;
+	padding:20px 30px;
+	margin-right:5px;
+	margin-bottom:8px;
+	text-decoration:none !important;
+	color:#777;
+	font-size:18px;
+	border-radius:10px;
+	border:1px solid rgba(0, 0, 0, 0.1);
+}
+@keyframes tabOn {
+	from {color:#777; background:transparent;}
+	to {color:white; background:#547DBF;}
+}
+#content .tab a:hover:not(.on) {
+	animation-name:tabOn;
+	animation-duration:0.2s;
+	color:white;
+	background:#547DBF;
+}
+#content .tab a.on {
+	font-weight:bold; 
+	color:white;
+	background:#547DBF;
+}
+#content .wrap #portfolio {margin:30px 0;}
+#content .wrap #portfolio a {text-decoration:none !important; color:#555; font-family:"Roboto Condensed", sans-serif; letter-spacing:-0.1em;}
+/*** CONTENT : END ***/

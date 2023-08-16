@@ -1,0 +1,14 @@
+2015-04-16 금요일 양정연 작업내역
+
+[1] http://triciayang.com/publish/flyerszone/index.html
+[2] http://triciayang.com/publish/flyerszone/location.html
+[3] http://triciayang.com/publish/flyerszone/category.html
+
+오전중 어제 퍼블리싱한 모바일웹의 전체적인 사이즈 수정작업을 완료하였습니다.
+가로 사이즈 767px미만인 경우와 이상인 경우 모두 메인 페이지와 위치 설정 페이지 최적화됩니다. 
+
+업종 선택 페이지를 작성완료 하였습니다.
+
+정렬 기준 선택에서 길게 선택창 세개를 넘어 길게 늘어진 여백을 삭제했습니다.
+
+즐겨찾기 추가/해제 버튼을 눌렀을때에 행해지는 모션을 작성했습니다.

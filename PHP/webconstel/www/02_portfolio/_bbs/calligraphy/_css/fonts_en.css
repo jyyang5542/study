@@ -1,0 +1,12 @@
+/***** Harlott (EN) *****/
+@font-face {
+	font-family: 'Harlott';
+	src: url('../fonts/Harlott.eot');
+	src: url('../fonts/Harlott.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Harlott.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/***** Roboto Condensed (EN) *****/
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");

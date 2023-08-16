@@ -1,0 +1,13 @@
+	$color: #FEFEFE;
+	#result {
+	    margin:15px 0;
+	    text-align:center;
+	    color:$color;
+	    @for $i from 1 through 10 {
+	      .item#{$i} {background:url("./images/bg(#{$i}).jpg");}
+	    }
+	}
+
+	@each $font-weight in (normal, bold) {
+	  .#{$font-weight} {font-weight: $font-weight;}
+	}

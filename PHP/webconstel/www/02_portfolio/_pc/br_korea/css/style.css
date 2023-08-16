@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/*********************************************************************
+	비알코리아(주) 사이트 퍼블리싱
+
+	* 작성자 : 양정연
+	* 작성일 : 2015-04-09 (목)
+
+*********************************************************************/
+body { width:100%; height:100%; overflow-x:hidden; }
+.wrap { width:1000px; margin:0 auto; }
+
+
+/**********************************
+	헤더 영역
+	HEADER AREA
+**********************************/
+#header { width:100%; height:573px; top:3px; background-color:#82d5ff; background-image:url("../img/bg_header_main.jpg"); 
+	background-repeat:no-repeat; background-position:center top; border-top:3px solid #114c93; }
+#header h1 { width:110px; height:60px; background-color:#114c93; text-align:center; padding-top:45px;  }
+#header ul li { float:left; margin-right:20px; }
+#header ul li:last-child { margin-right:0; }
+
+#header .nav { position:relative; margin-top:-85px; right:5px; height:5px; float:right; }
+#header .nav li a { display:block; height:5px; text-indent:-9999px; overflow:hidden; }
+#header .nav li:nth-child(1) a { width:67px; background-image:url("../img/nav_baskinrobbins.png"); } /* Baskin Robbins */
+#header .nav li:nth-child(2) a { width:70px; background-image:url("../img/nav_dunkindonuts.png"); } /* DUNKIN' DONUTS */
+#header .nav li:nth-child(3) a { width:36px; background-image:url("../img/nav_sitemap.png"); } /* SITE MAP */
+#header .nav li:nth-child(4) a { width:51px; background-image:url("../img/nav_contactus.png"); } /* CONTACT US */
+
+#header .gnb { position:relative; height:7px; margin:-48px 0 0 213px; float:left; }
+#header .gnb li { height:7px; border-right:1px solid #4e8099; margin-right:45px; }
+#header .gnb li:nth-child(1) { width:209px; }
+#header .gnb li:nth-child(2) { width:135px; }
+#header .gnb li:nth-child(3) { border:none;}
+#header .gnb li a { display:inline-block; height:18px; text-indent:-9999px; overflow:hidden; }
+#header .gnb li:nth-child(1) a { width:164px; background-image:url("../img/gnb_about.png"); background-position:0 0; } /* about BR KOREA */
+#header .gnb li:nth-child(1) a:hover { background-position:0 -30px; }
+#header .gnb li:nth-child(2) a { width:90px; background-image:url("../img/gnb_pr.png"); background-position:0 0; } /* pr center */
+#header .gnb li:nth-child(2) a:hover { background-position:0 -30px; }
+#header .gnb li:nth-child(3) a { width:73px; background-image:url("../img/gnb_careers.png"); background-position:0 0; } /* careers */
+#header .gnb li:nth-child(3) a:hover { background-position:0 -30px; }
+
+#header p { width:312px; height:60px; text-indent:-9999px; overflow:hidden; background-image:url("../img/p_mheader_info.png"); clear:both; float:right; }
+
+
+/**********************************
+	콘텐츠 영역 1
+	CONTENTS AREA 1
+**********************************/
+#contents1 { width:100%; height:190px }
+#contents1 a { font-size:12px; text-decoration:none; color:#7a7c92; }
+#contents1 .bottom h4 { margin-bottom:10px; }
+#contents1 .bottom h4 a { color:#114ca0; font-size:13px; line-height:1.4; }
+#contents1 .cont1 { height:170px; border-right:1px solid #e5e5e5; float:left; }
+#contents1 .top { height:14px; clear:both; padding-top:25px; }
+#contents1 .top h3 { float:left; }
+#contents1 .top span { float:right; margin-right:38px; }
+
+#contents1 .bottom { height:131px; clear:both; margin-top:27px; }
+
+#contents1 #happyBrKorea { width:318px; }
+#contents1 #happyBrKorea .bottom span:nth-of-type(1) { clear:both; margin-right:15px; float:left; }
+#contents1 #happyBrKorea .bottom span:nth-of-type(1) img { border:1px solid #eeeeee; }
+
+#contents1 #newsAndPress { width:323px; padding-left:43px; }
+#contents1 #newsAndPress .bottom span:nth-of-type(1) { clear:both; margin-right:15px; float:left; }
+
+#contents1 #tvCf { width:280px; padding-left:34px; border:none; }
+#contents1 #tvCf .top span { margin:0; }
+#contents1 #tvCf .bottom span:nth-of-type(1) { display:block; float:left; }
+#contents1 #tvCf .bottom span:nth-of-type(2) { float:right; }
+
+
+/**********************************
+	콘텐츠 영역 2
+	CONTENTS AREA 2
+**********************************/
+#contents2 { width:100%; height:83px; background-color:#f8f8f8; border-top:1px solid #e5e5e5; padding-top:4px; }
+#contents2 .cont2 { float:left;  height:83px; margin-right:5px; }
+#contents2 .cont2 a { display:block; height:83px; text-indent:-9999px; overflow:hidden; }
+
+#contents2 #cont2_1 { width:317px; }
+#contents2 #cont2_1 a { background-image:url("../img/h3_hotline.gif"); }
+#contents2 #cont2_2 { width:360px; }
+#contents2 #cont2_2 a { background-image:url("../img/h3_requiry.gif"); }
+#contents2 #cont2_3 { width:313px; margin:0; }
+#contents2 #cont2_3 a { background-image:url("../img/h3_recruiting.gif"); background-position:center center; }
+
+
+/**********************************
+	푸터 영역
+	FOOTER AREA
+**********************************/
+#footer { width:100%; height:101px; background-color:#f8f8f8; }
+#footer .wrap { padding-top:13px; }
+#footer_left { float:left; }
+#footer_left h1 { float:left; margin-top:30px; }
+#footer_left span { float:left; margin:18px 0 0 32px; }
+#footer_left span p:nth-child(1) { margin-bottom:9px; }
+#footer_left span p:nth-child(2) { margin-bottom:7px; }
+
+#footer_right { float:right; }
+#footer_right span a { margin:0 10px 10px 0; }
+#footer_right span a:nth-child(2) img,
+#footer_right span a:nth-child(3) img,
+#footer_right span a:nth-child(4) img { margin-top:5px; }
+#footer_right span a:last-child { margin-right:0; }
+
+#footer_right form { float:right; margin-top:5px; }
+#footer_right form legend { display:none; }
+#footer_right form select { display:inline-block; width:130px; height:24px; font-size:12px; line-height:26px; padding-left:16px; border:1px solid #e4e4e4; border-radius:5px; }

@@ -1,0 +1,165 @@
+@charset="UTF-8";
+
+/***************************************************************
+	전단지ZONE 미디어 관련 보고서 
+	- 스타일시트(저작권법)
+
+	* 작성일: 2015-05-30 (Sat)
+	* 작성자: 양정연
+***************************************************************/
+
+/* 웹 폰트 ( WEB FONTS ) */
+@font-face { font-family:"pado"; src:url("../font/pado.eot"); } /* 파도 소리 eot */
+@font-face { font-family:"pado"; src:url("../font/pado.woff"); } /* 파도 소리 woff */
+
+@font-face { font-family:"mokyoktang"; src:url("../font/mokyoktang.eot"); } /* 옛날 목욕탕 eot */
+@font-face { font-family:"mokyoktang"; src:url("../font/mokyoktang.woff"); } /* 옛날 목욕탕 woff */
+
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color:white;
+}
+
+/*********************************************
+	저작권법 영역
+	COPYRIGHT AREA
+*********************************************/
+#copyright {
+	position: relative;
+	width: 100%;
+}
+
+/* 저작권법 - 헤더 */
+#copyright #header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	background-color: #F29423;
+	border-bottom: 5px solid #333;
+	z-index:500;
+}
+#copyright #header #header_wrap {
+	position: absolute;
+	width: 1024px;
+	height: 100px;
+	top: 0;
+	left: 50%;
+	margin-left: -512px;
+}
+#copyright #header #header_wrap h1 {
+	position: absolute;
+	font-family: "pado";
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	left: 0;
+	bottom: 0px;
+}
+#copyright #header #header_wrap h2 {
+	position: absolute;
+	font-family: "pado";
+	font-size: 18px;
+	font-weight: normal;
+	color: white;
+	left: 220px;
+	bottom: 6px;
+}
+#copyright #header .gnb {
+	position: absolute;
+	width: 550px;
+	height: 30px;
+	right: 0;
+	bottom: 6px;
+}
+#copyright #header .gnb li {
+	display: block;
+	width: 110px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+#copyright #header .gnb li a {
+	display: block;
+	font-family: "mokyoktang";
+	font-size: 18px;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+}
+#copyright #header .gnb li:nth-child(2) a {
+	color: #333;
+	font-size: 20px;
+}
+#copyright #header .gnb li a:hover,
+#copyright #header .gnb li a:active {
+	color: #333;
+}
+
+/* 저작권법 - 콘텐츠 */
+#copyright #contents {
+	position: relative;
+	width: 1024px;
+	font-size: 16px;
+	margin-top: 180px;
+	left: 50%;
+	margin-left: -512px;
+}
+#copyright #contents h3 {
+	font-family: "pado";
+	font-size: 60px;
+	font-weight: normal;
+	color: #F29423;
+}
+#copyright #contents h4 {
+	font-family: "mokyoktang";
+	font-weight: normal;
+	font-size: 20px;
+}
+#copyright #contents .color {
+	color: #F29423;
+	font-size: 18px;
+	font-family: "mokyoktang";
+}
+#copyright #contents strong {
+	font-size: 18px;
+	font-family: "mokyoktang";
+	font-weight: normal;
+}
+#copyright #contents p a {
+	font-family: "mokyoktang";
+	font-size: 18px;
+	color: #55ACEE;
+}
+
+/* 저작권법 - 푸터 */
+#copyright #footer {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	margin-top: 30px;
+	padding-top: 30px;
+	background-color: #eee;
+}
+#copyright #footer #footer_wrap {
+	position: relative;
+	width: 1024px;
+	height: 120px;
+	margin: 0 auto;
+}
+#copyright #footer #footer_wrap p {
+	font-family: "mokyoktang";
+	font-size: 18px;
+	color: #333;
+}
+#copyright #footer #footer_wrap p a {
+	color: #55ACEE;
+}
+#copyright #footer .publisher {
+	margin-top: 15px;
+}

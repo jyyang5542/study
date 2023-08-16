@@ -1,0 +1,66 @@
+@charset="UTF-8";
+
+	body { width:100%; height:100%; overflow-x:hidden; }
+	#wrap { width:1280px; margin:0 auto; }
+	#header { width:980px; height:43px; padding-top:20px; margin:0 auto 20px auto; }
+	#contents { width:980px; overflow:hidden; margin:0 auto; }
+	#contents .slider { width:3840px; }
+	#footer { width:980px; padding-top:20px; margin:20px auto 0 auto; font-size:13px; }
+
+	/******************************************
+		헤더-네비게이션 영역
+	******************************************/
+	div#nav ul.gnb { width:980px; height:36px; margin:0 auto; }
+	div#nav ul.gnb li { float:left; }
+	div#nav ul.gnb li a { width:102px; height:36px; display:block; background-image:url('../img/globalnav.png'); background-repeat:no-repeat; background-position:-102px 0; text-indent:-9999px; }
+	div#nav ul.gnb li a:hover { background-position:-102px -108px; }
+	div#nav ul.gnb li:nth-child(1) a { background-position:0 0; }
+	div#nav ul.gnb li:nth-child(1) a:hover { background-position:0 -108px; }
+	div#nav ul.gnb li a span { display:block; width:102px; height:36px; background-image:url('../img/globalnav_text.png'); background-repeat:no-repeat; }
+	div#nav ul.gnb li:nth-child(1) a span { background-position:center 3px; }
+	div#nav ul.gnb li:nth-child(2) a span { background-position:center -27px; }
+	div#nav ul.gnb li:nth-child(3) a span { background-position:center -57px; }
+	div#nav ul.gnb li:nth-child(4) a span { background-position:center -87px; }
+	div#nav ul.gnb li:nth-child(5) a span { background-position:center -117px; }
+	div#nav ul.gnb li:nth-child(6) a span { background-position:center -147px; }
+	div#nav ul.gnb li:nth-child(7) a span { background-position:center -177px; }
+	div#nav ul.gnb li:nth-child(8) a span { background-position:center -207px; }
+	div#nav ul.gnb li:nth-child(9) a { display:block; width:144px; height:20px; background-image:url('../img/globalsearch_bg.png'); background-repeat:no-repeat; background-position:0 0; padding:8px 10px; }
+	div#nav ul.gnb li:nth-child(9) a:hover { background-position:0 0; }
+	form label { display:none; }
+	form { width:140px; height:20px; background-image:url('../img/globalsearch_field.png'); background-repeat:no-repeat; padding:0 25px; }
+	form:hover { background-position:0 -20px; }
+	form:active { background-position:0 -20px; }
+	form #search { display:block; width:110px; height:20px; border:none;  background-color:transparent; color:white; }
+	form #search:hover { color:gray; }
+
+	/******************************************
+		콘텐츠 영역
+	******************************************/
+	#contents #infoWrap { position:left; }
+	#contents #infoWrap h1 { width:286px; height:167px; display:block; background-image:url('../img/ios_title_small.png'); background-repeat:no-repeat; overflow:hidden; text-indent:-9999px; margin-top:50px; z-index:500; }
+	#contents #infoWrap > p > a { display:inline-block; height:28px; font-size:28px; color:#00a8ff; line-height:28px; z-index:500; }
+
+	#slider .view .img_box { position:relative; width:666px; height:454px; overflow:hidden; float:right; margin:-300px 0 0 0; z-index:1; }
+	#slider .view .img_box li { display:block; width:666px; height:454px; float:left; overflow:hidden; text-indent:-9999px; background-image:url('../img/mainimg.jpg'); background-repeat:no-repeat; }
+
+	#visual { position:relative; clear:both; margin-top:50px; }
+	#visual ul { clear:both; }
+	#visual ul li { float:left; }
+
+	/******************************************
+		푸터 영역
+	******************************************/
+	#footer a { color:#00a8ff;  }
+	#footer a:hover { text-decoration:underline; }
+	#footer div:nth-child(1) { float:left; }
+	#footer div:nth-child(2) { float:right; }
+	#footer div p { letter-spacing:-1px; }
+	#footer div ul { clear:both; letter-spacing:-1px; }
+
+	#footer div ul li { width:75px; height:16px; text-align:center; line-height:16px; border-right:1px solid silver; float:left; }
+	#footer div ul:first-child li:first-child { text-align:left; width:65px; }
+	#footer div ul:first-child li:last-child { width:80px; border:none; }
+
+	#footer div ul:last-child li:first-child { text-align:left; width:85px; }
+	#footer div ul:last-child li:last-child { width:100px; border:none; }

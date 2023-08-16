@@ -1,0 +1,37 @@
+.wrap {width:94%; margin:30px auto;}
+.wrap h2 {
+	text-align:center;
+	line-height:1.2;
+	font-size:3.6em; 
+	font-family: 'Mukta', sans-serif; 
+	color:#222;
+}
+.wrap h2 span {color:#547DBF;}
+.wrap .sub {text-align:center; color:#999; font-size:13px;}
+.wrap h3 {
+	margin-top:20px;
+	font-size:2em; 
+	font-family: 'Mukta', sans-serif; 
+	color:#222;
+}
+.wrap h3 b {color:#547DBF;}
+.wrap h3 span {color:#aaa;}
+.wrap table {width:100%; border-collapse:collapse;}
+.wrap table tr th,
+.wrap table tr td {padding:10px; vertical-align:middle; font-size:13px;}
+.wrap table tr th {background:#eee; border-bottom:3px solid white;}
+.wrap table tr td {}
+.wrap table tr:not(:last-of-type) td {border-bottom:1px dotted #ddd;}
+.wrap td .bar {
+	position:relative;
+	height:31px;
+	font-weight:bold;
+	background:linear-gradient(to right, #365890, #547DBF, white);
+}
+.wrap td .bar span {
+	position:absolute;
+	height:31px;
+	right:10px;
+	line-height:31px;
+	font-size:13px;
+}
