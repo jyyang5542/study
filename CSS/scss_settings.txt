@@ -1,8 +1,14 @@
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "~/../css/",
-      "savePathReplacementPairs": null
-    }
-  ]
+# VSCode 익스텐션은 아래 추가
+  * Sass
+  * Live Sass Compiler
+
+
+# 옵션은 다음처럼 추가
+"liveSassCompile.settings.formats": [
+   {
+     "format": "expanded",
+     "extensionName": ".css",
+     "savePath": "~/../css/",
+     "savePathReplacementPairs": null
+   }
+]
