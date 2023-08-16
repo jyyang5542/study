@@ -19,12 +19,12 @@
 │   ├── XML_AJAX_파싱.html
 │   ├── XML_ajax_파싱.xml
 │   └── 구글_스프레드_시트_JSON_파싱
-
+│
 ├── json 데이터 읽어오기
 │   ├── data.json
 │   ├── document.html
 │   └── script.js
-
+│
 ├── 기타
 │   ├── excel.xml
 │   ├── 비밀번호 정규식.js
