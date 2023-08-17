@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"project_name.css"}
+{"version":3,"sources":["../scss/_reset.scss","project_name.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAiFI,SAAA;EACA,eAAA;EACA,aAAA;EACA,SAAA;EACA,UAAA;EACA,wBAAA;ACCJ;;ADCA;;;;;;;;;;;EAWI,cAAA;ACEJ;;ADAA;EACI,cAAA;ACGJ;;ADDA;;EAEI,gBAAA;ACIJ;;ADFA;;EAEI,YAAA;ACKJ;;ADHA;;;;EAII,WAAA;EACA,aAAA;ACMJ;;ADJA;EACI,yBAAA;EACA,iBAAA;ACOJ","file":"project_name.css"}
