@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vue.js 학습</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app" class="vue">
+            <ul class="vue__list">
+                <li class="vue__item">
+                    <h3>data message 출력</h3>
+                    <div>
+                        <p>{{message_1}}</p>
+                    </div>
+                </li>
+                <li class="vue__item">
+                    <h3>attribute를 부여하기</h3>
+                    <div>
+                        <p v-bind:title="message_3">{{message_2}}</p>
+                    </div>
+                </li>
+                <li class="vue__item">
+                    <h3>v-if</h3>
+                    <div>
+                        <p v-if="seen">볼 수 있어요</p>
+                    </div>
+                </li>
+                <li class="vue__item">
+                    <h3>v-for</h3>
+                    <div>
+                        <ol>
+                            <li v-for="todo in todos">{{todo.text}}</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="vue__item">
+                    <h3>v-on:click</h3>
+                    <div>
+                        <p>{{message_4}}</p>
+                        <button v-on:click="reverseMessage">메세지 뒤집기</button>
+                    </div>
+                </li>
+                <li class="vue__item">
+                    <h3>v-model</h3>
+                    <div>
+                        <p>{{message_5}}</p>
+                        <input type="text" v-model="message_5" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <code>
+            <pre>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message_1: "Hi Hi",
+            message_2: "마우스를 올리면 동적으로 bind된 title이 노출됨",
+            message_3: new Date() + " 호잇",
+            message_4: "클릭하면 텍스트를 거꾸로 뒤집는 메소드",
+            message_5: "뭐라고 적지",
+            seen: true,
+            todos: [
+                { text: "문자열 1" }, 
+                { text: "문자열 2" }, 
+                { text: "문자열 3" }
+            ],
+        },
+        methods: {
+            reverseMessage: function () {
+                this.message_4 = this.message_4.split("").reverse().join("");
+            },
+        },
+    });
+            </pre>
+        </code>
+        <script>
+            var app = new Vue({
+                el: "#app",
+                data: {
+                    message_1: "Hi Hi",
+                    message_2: "마우스를 올리면 동적으로 bind된 title이 노출됨",
+                    message_3: new Date() + " 호잇",
+                    message_4: "클릭하면 텍스트를 거꾸로 뒤집는 메소드",
+                    message_5: "뭐라고 적지",
+                    seen: true,
+                    todos: [
+                        { text: "문자열 1" }, 
+                        { text: "문자열 2" }, 
+                        { text: "문자열 3" }
+                    ],
+                },
+                methods: {
+                    reverseMessage: function () {
+                        this.message_4 = this.message_4.split("").reverse().join("");
+                    },
+                },
+            });
+        </script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                list-style-position: inside;
+            }
+            .vue__list {
+                padding: 50px 50px 20px;
+            }
+            .vue__item {
+                display: grid;
+                grid-template-columns: 250px calc(100% - 260px);
+            }
+            .vue__item + .vue__item {
+                margin-top: 3px;
+            }
+            .vue__item > * {
+                padding: 10px 20px;
+            }
+            .vue__item > h3 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: gray;
+            }
+            .vue__item > div {
+                background-color: ghostwhite;
+            }
+            code {
+                display: block;
+                padding: 0 50px;
+            }
+            pre {
+                padding: 10px 0;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                border-left: 3px solid coral;
+            }
+        </style>
+    </body>
+</html>
