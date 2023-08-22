@@ -6,6 +6,15 @@ npm i -g @vue/cli
 ```
 vue create project_name
 ```
+```
+// SCSS 설치
+npm i --save-dev sass-loader node-sass // 2.0 버전은 sass-loader@10
+
+// 이후 vue 문서 내에서
+<style lang="scss" scoped>
+/** **/
+</style>
+```
 <br />
 
 ## setting 파일에서 아래 내용 추가
