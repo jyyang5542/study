@@ -6,18 +6,34 @@ npm i -g @vue/cli
 ```
 vue create project_name
 ```
-```
-// SCSS 설치
-npm i --save-dev sass-loader node-sass // 2.0 버전은 sass-loader@10
+<br />
 
+## SCSS 설치
+```
+npm i --save-dev sass
+```
+```
+npm i --save-dev sass-loader@10
+```
+```
 // 이후 vue 문서 내에서
 <style lang="scss" scoped>
 /** **/
 </style>
 ```
+```
+// 전역 설정 (App.vue)
+<style lang="scss">
+@import "@/assets/scss/style.scss";
+</style>
+```
 <br />
 
-## setting 파일에서 아래 내용 추가
+## Delete `␍` 에러가 뜰 경우
+```
+npm run lint -- --fix
+```
+또는
 ```
 "eslint.workingDirectories" : [
     {"mode": "auto"}
